@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Medical Assistant Practice Bank</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -105,6 +110,17 @@ summary{cursor:pointer;font-weight:600}
 .mrow .count small{display:block;font:500 .65rem/1.3 var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .mrow details{border:0;padding:0;background:none}
 .misslog{margin:10px 0 0;padding-left:1.3em;font-size:.86rem;display:grid;gap:3px}
+.mgwrap{margin-top:10px;border:0;padding:0;background:none}
+.mgwrap>.stack{margin-top:10px}
+.mgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);cursor:pointer;list-style:none}
+.mgroup::-webkit-details-marker{display:none}
+.mgroup:hover{border-color:var(--accent)}
+.mgroup .gtitle{display:flex;gap:8px;align-items:baseline;flex:1 1 220px;min-width:0}
+.mgroup .chev{color:var(--accent);transition:transform .15s;display:inline-block}
+.mgwrap[open] .mgroup .chev{transform:rotate(90deg)}
+.mgroup h3{margin:0;font:600 1.05rem/1.3 var(--display);overflow-wrap:anywhere}
+.mgroup .gmeta{color:var(--muted);font-size:.86rem}
+.mgroup .btn{margin-left:auto;padding:5px 12px;font-size:.85rem}
 .mrow summary{font-weight:600;line-height:1.4}
 .mmeta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-size:.8rem;color:var(--muted)}
 @media (max-width:480px){.summary{grid-template-columns:1fr 1fr 1fr}.summary b{font-size:1.3rem}h1{font-size:1.7rem}}
@@ -192,6 +208,7 @@ summary{cursor:pointer;font-weight:600}
     <div class="panel">
       <div class="label">Missed list</div>
       <p id="missedLead" style="margin:6px 0 0"></p>
+      <div class="label" style="margin-top:14px">Sort by</div><div class="seg" id="missSortSeg" style="margin-top:6px"></div>
     </div>
     <div class="row"><button class="btn" id="practiceMissed">Practice these</button><button class="btn ghost" id="missedHome">Back to setup</button></div>
     <div id="missedList"></div>
@@ -499,14 +516,31 @@ function missedGroups() {
   }
   return Object.values(g).filter(m => m.wrong > 0).sort((a, b) => b.wrong - a.wrong || (a.last === b.last ? 0 : a.last ? 1 : -1));
 }
+const OPEN_GROUPS = new Set();   // groups expanded during this visit; all start collapsed
+const MISS_SORTS = [['count', 'Most missed'], ['module', 'Topic'], ['bank', 'Exam'], ['recent', 'Most recent miss']].filter(([v]) => v !== 'bank' || EXAMS.length > 1);
+const lastMiss = m => Math.max(0, ...m.ids.map(id => { const l = missLog(id); return l.length ? l[l.length - 1].ts : 0; }));
+function missSections(ms) {
+  const by = store.prefs.missSort || 'count';
+  if (by === 'recent') return [{ title: '', list: ms.slice().sort((a, b) => lastMiss(b) - lastMiss(a)) }];
+  if (by === 'count') return [{ title: '', list: ms }];
+  // Topic groups follow TOPICS order; exam groups are 'Exam 1' … 'Exam 4'
+  const keyOf = m => by === 'module' ? BYN[m.worst].topic : `Exam ${BYN[m.worst].exam}`;
+  const order = by === 'module' ? TOPICS : EXAMS.map(x => `Exam ${x}`);
+  const g = {};
+  for (const m of ms) (g[keyOf(m)] = g[keyOf(m)] || []).push(m);
+  return order.filter(k => g[k]).map(k => ({ title: k, list: g[k] }));
+}
 function renderMissed() {
   const ms = missedGroups(), total = ms.reduce((t, m) => t + m.wrong, 0);
+  if (!store.prefs.missSort || !MISS_SORTS.some(([v]) => v === store.prefs.missSort)) store.prefs.missSort = 'count';
+  $('missSortSeg').innerHTML = MISS_SORTS.map(([v, t]) => `<button type="button" data-v="${v}" aria-pressed="${store.prefs.missSort === v}">${t}</button>`).join('');
+  $('missSortSeg').hidden = $('missSortSeg').previousElementSibling.hidden = !ms.length;
   $('missedLead').textContent = ms.length
-    ? `${ms.length} problem${ms.length > 1 ? 's' : ''} missed, ${total} wrong answer${total > 1 ? 's' : ''} in all. Most-missed first. Every wrong answer counts, even if you've since gotten it right. Open a question to see each miss. A question that appears in more than one exam is counted as one problem.`
+    ? `${ms.length} problem${ms.length > 1 ? 's' : ''} missed, ${total} wrong answer${total > 1 ? 's' : ''} in all. Every wrong answer counts, even if you've since gotten it right. Open a question to see each miss. A question that appears in more than one exam is counted as one problem.`
     : 'Nothing missed yet. Every question you get wrong in the quiz shows up here with a count and the date of each miss.';
   $('practiceMissed').hidden = !ms.length;
   $('practiceMissed').textContent = `Practice these (${ms.length})`;
-  $('missedList').innerHTML = ms.map(m => {
+  const row = m => {
     const q = BYN[m.worst];
     const also = BANK.filter(x => x.group === q.group).map(qlabel).join(', ');
     return `<div class="panel mrow" style="padding:14px 16px"><div class="count mono">${m.wrong}<small>wrong</small></div><details><summary>${esc(q.q)}</summary>
@@ -515,8 +549,15 @@ function renderMissed() {
         return `<ol class="misslog">${log.map(x => `<li><span class="mono">${when(x.ts)}</span> · picked ${esc(x.picked || '?')}${m.ids.length > 1 ? ' · ' + esc(qlabel(BYN[x.id])) : ''}</li>`).join('')}${undated > 0 ? `<li class="note">${undated} earlier miss${undated > 1 ? 'es' : ''} from before dates were recorded</li>` : ''}</ol>`; })()}
       <p style="margin:10px 0 4px"><strong>Answer:</strong> ${q.answer.map(i => L[i] + ') ' + esc(q.options[i])).join('; ')}</p><p class="note" style="margin:0">${esc(q.explanation)}</p></details>
       <div class="mmeta" style="grid-column:2"><span class="pill ${m.last ? 'ok' : 'bad'}">Last: ${m.last ? 'right' : 'wrong'}</span><span>${m.right} right</span><span>· ${esc(q.topic)}</span><span>· ${esc(also)}</span></div></div>`;
-  }).join('');
+  };
+  $('missedList').innerHTML = missSections(ms).map((s, i) => s.title
+    ? `<details class="mgwrap" data-t="${esc(s.title)}"${OPEN_GROUPS.has(s.title) ? ' open' : ''}><summary class="mgroup"><span class="gtitle"><span class="chev" aria-hidden="true">▸</span><h3>${esc(s.title)}</h3></span><span class="gmeta">${s.list.length} problem${s.list.length > 1 ? 's' : ''} · ${s.list.reduce((t, m) => t + m.wrong, 0)} wrong</span><button class="btn small" data-g="${i}">Practice this group</button></summary><div class="stack">${s.list.map(row).join('')}</div></details>`
+    : s.list.map(row).join('')).join('');
 }
+$('missSortSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; store.prefs.missSort = b.dataset.v; save(); renderMissed(); };
+$('missedList').addEventListener('toggle', e => { const d = e.target; if (!d.classList || !d.classList.contains('mgwrap')) return; d.open ? OPEN_GROUPS.add(d.dataset.t) : OPEN_GROUPS.delete(d.dataset.t); }, true);
+$('missedList').addEventListener('click', e => { const b = e.target.closest('button[data-g]'); if (!b) return; e.preventDefault();
+  const s = missSections(missedGroups())[+b.dataset.g]; if (s) begin(shuffle(s.list.map(m => m.worst))); });
 /* dated misses for one question: from the Sheet when connected (all devices), plus this device's unsent ones; otherwise this device's history */
 function missLog(id) {
   const fmt = l => l.map(i => typeof i === 'number' ? L[i] : i).join('');

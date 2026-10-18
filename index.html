@@ -64,6 +64,21 @@ button:focus-visible,.opt:focus-visible{outline:3px solid var(--accent);outline-
 .summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .summary div{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--surface)}
 .summary b{display:block;font:700 1.6rem/1.1 var(--display)}
+.goal{display:grid;gap:12px}
+.goalrow{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap}
+.goalrow .field{flex:1 1 180px;min-width:0}
+.goalrow .btn{padding:10px 14px}
+.goal .progress{margin-top:0}
+.goal .progress i{display:block;height:100%;background:var(--accent);border-radius:4px}
+.gstats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.gstats div{border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.gstats b{display:block;font:700 1.35rem/1.1 var(--display)}
+.gstats .late b{color:var(--bad)}
+.gtoday{margin:0;padding:9px 12px;border-radius:8px;background:var(--accent-soft);font-size:.92rem}
+.gtoday.met{background:var(--good-soft);color:var(--good);font-weight:600}
+.gtoday.late{background:var(--bad-soft);color:var(--bad);font-weight:600}
+.gscope{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.gscope .btn{padding:6px 12px;font-size:.85rem}
 .note{font-size:.88rem;color:var(--muted)}
 /* quiz */
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:10px}
@@ -142,6 +157,15 @@ summary{cursor:pointer;font-weight:600}
     </div>
 
     <div class="summary" id="summary"></div>
+
+    <div class="panel goal" id="goalBox">
+      <div class="label">Deadline goal</div>
+      <div class="goalrow">
+        <label class="field" for="goalDate"><span class="note">Finish by</span><input type="date" id="goalDate"></label>
+        <button type="button" class="btn quiet" id="goalClear">Clear</button>
+      </div>
+      <div id="goalBody"></div>
+    </div>
 
     <div class="row" style="justify-content:space-between">
       <button class="btn ghost" id="missedBtn">Missed list</button>
@@ -251,6 +275,8 @@ if (store.session && store.session.order.some(x => typeof x === 'number')) {
   const r = {}; for (const [k, v] of Object.entries(s.results)) r[/^\d+$/.test(k) ? '1-' + k : k] = v; s.results = r;
 }
 if (store.session && store.session.order.some(x => !BYN[x])) store.session = null;
+/* deadline goal: shared by all devices through the Sheet's Goal tab (newest change wins) */
+if (!store.goal) store.goal = { date: '', topics: [], exams: [], updatedAt: 0, device: '', dirty: false };
 function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
 
 /* ---------- setup ---------- */
@@ -281,6 +307,7 @@ function renderSetup() {
     return `<button type="button" class="topic" data-t="${esc(t)}" aria-pressed="${on}"><span class="box">${on ? '✓' : ''}</span><span class="nm">${esc(t)}</span><span class="ct">${r}/${qs.length}</span><span class="meter"><i style="width:${qs.length ? 100 * r / qs.length : 0}%"></i></span></button>`;
   }).join('');
   $('examSeg').innerHTML = EXAMS.map(x => `<button type="button" data-x="${x}" aria-pressed="${store.prefs.exams.includes(x)}">Exam ${x} <span class="note">(${BANK.filter(q => q.exam === x).length})</span></button>`).join('');
+  renderGoal();
   seg($('modeSeg'), MODES, 'mode'); seg($('countSeg'), COUNTS, 'count'); seg($('orderSeg'), ORDERS, 'order');
   const n = pool().length, c = store.prefs.count === 'all' ? n : Math.min(n, +store.prefs.count);
   $('poolText').textContent = n ? `${c} question${c === 1 ? '' : 's'} in this session` : 'No questions match these settings';
@@ -289,6 +316,79 @@ function renderSetup() {
   $('resumeBox').hidden = !(s && s.i < s.order.length);
   if (s) $('resumeText').textContent = `Question ${Math.min(s.i + 1, s.order.length)} of ${s.order.length} · ${s.right} right so far`;
 }
+/* ---------- deadline goal ---------- */
+const DAY = 86400000;
+const dayStart = (t = Date.now()) => { const d = new Date(t); d.setHours(0, 0, 0, 0); return d.getTime(); };
+const parseDay = s => { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || ''); return m ? new Date(+m[1], m[2] - 1, +m[3]).getTime() : null; };
+const sameSet = (a, b) => a.length === b.length && a.every(x => b.includes(x));
+/* when each question was first answered: the Sheet's value, else this device's oldest answer, else last answer */
+function firstAnswered(id) {
+  const st = store.stats[id]; if (!st || !st.seen) return null;
+  if (st.firstAt) return st.firstAt;
+  const h = (store.history || []).filter(x => x.id === id); if (h.length) return Math.min(...h.map(x => x.ts));
+  return st.lastAt || 0;
+}
+function goalCalc() {
+  const g = store.goal, end = parseDay(g.date); if (end == null) return null;
+  const qs = BANK.filter(q => g.topics.includes(q.topic) && g.exams.includes(q.exam));
+  const today = dayStart(), firsts = qs.map(q => firstAnswered(q.id)).filter(t => t != null);
+  const done = firsts.length, before = firsts.filter(t => t < today).length, todayNew = done - before;
+  const daysLeft = Math.round((end - today) / DAY) + 1;          // today and the deadline day both count
+  const startLeft = qs.length - before;                          // what was left when today began
+  const target = daysLeft > 0 ? Math.ceil(startLeft / daysLeft) : startLeft;  // fixed for the whole day
+  return { total: qs.length, done, todayNew, daysLeft, target, left: qs.length - done };
+}
+function goalScopeText() {
+  const g = store.goal, t = g.topics.filter(x => TOPICS.includes(x)).length, e = g.exams.filter(x => EXAMS.includes(x));
+  const topics = t === TOPICS.length ? `all ${TOPICS.length} topics` : `${t} of ${TOPICS.length} topics`;
+  const exams = EXAMS.length < 2 ? '' : e.length === EXAMS.length ? ` · all ${EXAMS.length} exams` : ` · Exam${e.length > 1 ? 's' : ''} ${e.join(', ')}`;
+  const where = connected() ? (store.goalSync === false ? 'on this device (update Code.gs to sync it)' : 'synced with your Sheet') : 'saved on this device';
+  return `Goal covers ${topics}${exams} · ${where}`;
+}
+function renderGoal() {
+  const g = store.goal, c = goalCalc();
+  if (document.activeElement !== $('goalDate')) $('goalDate').value = g.date || '';
+  $('goalDate').min = new Date(Date.now() - new Date().getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+  $('goalClear').hidden = !g.date;
+  if (!c) { $('goalBody').innerHTML = `<p class="note" style="margin:0">Pick a finish-by date and the site works out how many new questions to answer each day. It uses the topics and exams switched on below.</p>`; return; }
+  const pct = c.total ? Math.round(100 * c.done / c.total) : 0, late = c.daysLeft <= 0 && c.left > 0;
+  let today;
+  if (!c.total) today = `<p class="gtoday late">No questions match this goal's topics and exams. Switch some on below, then tap Use current selection.</p>`;
+  else if (!c.left) today = `<p class="gtoday met">All ${c.total} questions answered. Goal complete.</p>`;
+  else if (late) today = `<p class="gtoday late">The finish-by date has passed with ${c.left} question${c.left > 1 ? 's' : ''} left. Pick a new date.</p>`;
+  else if (c.todayNew >= c.target) today = `<p class="gtoday met">Today: ${c.todayNew} of ${c.target} new questions done. Target met. Any extra lowers tomorrow's number.</p>`;
+  else today = `<p class="gtoday">Today: ${c.todayNew} of ${c.target} new questions done, ${c.target - c.todayNew} to go.</p>`;
+  const differs = !sameSet(g.topics, store.prefs.topics) || !sameSet(g.exams, store.prefs.exams);
+  $('goalBody').innerHTML = `
+    <div class="progress" role="progressbar" aria-label="Goal progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div>
+    <div class="gstats">
+      <div><span class="label">Complete</span><b class="mono">${pct}%</b><span class="note">${c.done}/${c.total}</span></div>
+      <div class="${late ? 'late' : ''}"><span class="label">Days left</span><b class="mono">${Math.max(c.daysLeft, 0)}</b></div>
+      <div class="${late ? 'late' : ''}"><span class="label">Per day</span><b class="mono">${!c.left ? 0 : late ? c.left : c.target}</b></div>
+    </div>
+    ${today}
+    <div class="gscope"><span class="note">${esc(goalScopeText())}</span>${differs ? '<button type="button" class="btn quiet" id="goalUse">Use current topic &amp; exam selection</button>' : ''}</div>`;
+}
+function setGoal(changes) {
+  Object.assign(store.goal, changes, { updatedAt: Date.now(), device: store.sync.device, dirty: true });
+  save(); renderGoal(); if (connected()) flushSoon();
+}
+/* adopt the Sheet's goal when it is newer than ours */
+function takeRemoteGoal(d) {
+  if (!('goal' in d)) { store.goalSync = false; return; }
+  store.goalSync = true;
+  const r = d.goal, g = store.goal;
+  if (r && Number(r.updatedAt) > g.updatedAt) store.goal = { date: r.date || '', topics: r.topics || [], exams: (r.exams || []).map(Number), updatedAt: Number(r.updatedAt), device: r.device || '', dirty: false };
+  else if (r && Number(r.updatedAt) === g.updatedAt) g.dirty = false;
+}
+$('goalDate').onchange = e => {
+  const v = e.target.value;
+  if (!v) return setGoal({ date: '' });
+  const g = store.goal;
+  setGoal(g.date || g.topics.length ? { date: v } : { date: v, topics: store.prefs.topics.slice(), exams: store.prefs.exams.slice() });
+};
+$('goalClear').onclick = () => setGoal({ date: '' });
+$('goalBody').onclick = e => { if (e.target.closest('#goalUse')) setGoal({ topics: store.prefs.topics.slice(), exams: store.prefs.exams.slice() }); };
 $('topics').onclick = e => {
   const b = e.target.closest('.topic'); if (!b) return;
   const t = b.dataset.t, a = store.prefs.topics;
@@ -357,7 +457,7 @@ function grade() {
   const ok = picked.length === q.answer.length && q.answer.every(a => picked.includes(a));
   s.results[q.id] = { picked: picked.slice(), ok }; if (ok) s.right++;
   const st = store.stats[q.id] || { seen: 0, right: 0 };
-  st.seen++; if (ok) st.right++; st.last = ok; st.lastAt = Date.now(); store.stats[q.id] = st;
+  st.seen++; if (ok) st.right++; st.last = ok; st.lastAt = Date.now(); if (!st.firstAt) st.firstAt = st.lastAt; store.stats[q.id] = st;
   store.history.push({ id: q.id, picked: picked.slice(), ok, ts: Date.now() }); save();  // every answer, kept even after you later get it right
   queueAttempt(q, picked.slice(), ok);
   save();  // checkpoint after every answer
@@ -425,12 +525,13 @@ function queueAttempt(q, picked, ok) {
 function rebuildStats() {
   if (!store.remote) return;
   const st = {};
-  for (const [id, r] of Object.entries(store.remote)) if (BYN[id]) st[id] = { seen: r.seen, right: r.right, last: r.last, lastAt: r.lastAt };
+  for (const [id, r] of Object.entries(store.remote)) if (BYN[id]) st[id] = { seen: r.seen, right: r.right, last: r.last, lastAt: r.lastAt, firstAt: r.firstAt || 0 };
   if (!Array.isArray(store.history)) store.history = [];
   for (const a of store.pending) {
     const s = st[a.id] || (st[a.id] = { seen: 0, right: 0, last: null, lastAt: 0 });
     if (a.source === 'baseline') { s.seen += a.seen; s.right += a.right; if (a.ts >= s.lastAt) { s.last = a.ok; s.lastAt = a.ts; } }
     else { s.seen++; if (a.ok) s.right++; if (a.ts >= s.lastAt) { s.last = a.ok; s.lastAt = a.ts; } }
+    if (!s.firstAt || a.ts < s.firstAt) s.firstAt = a.ts;
   }
   store.stats = st;
 }
@@ -460,10 +561,12 @@ async function flush() {
   if (!connected() || busy) return;
   busy = true;
   try {
-    if (!store.remote) { const d = await call('GET'); store.remote = d.stats; }
-    while (store.pending.length) {
-      const batch = store.pending.slice(0, 200);
-      const d = await call('POST', { key: store.sync.key, attempts: batch });
+    if (!store.remote) { const d = await call('GET'); store.remote = d.stats; takeRemoteGoal(d); }
+    while (store.pending.length || (store.goal.dirty && store.goalSync !== false)) {
+      const batch = store.pending.slice(0, 200), body = { key: store.sync.key, attempts: batch };
+      if (store.goal.dirty) { const { dirty, ...g } = store.goal; body.goal = g; }
+      const d = await call('POST', body);
+      takeRemoteGoal(d); if (body.goal && store.goalSync === false) store.goal.dirty = true;
       const sent = new Set(batch.map(a => a.uid));
       store.pending = store.pending.filter(a => !sent.has(a.uid));
       store.remote = d.stats; save();
@@ -477,7 +580,7 @@ async function flush() {
 }
 async function pull() {
   if (!connected()) return syncLabel();
-  try { const d = await call('GET'); store.remote = d.stats; rebuildStats(); save(); } catch (e) { return syncError(e); }
+  try { const d = await call('GET'); store.remote = d.stats; takeRemoteGoal(d); rebuildStats(); save(); if (!$('setup').hidden) renderSetup(); } catch (e) { return syncError(e); }
   flush();
 }
 $('syncBtn').onclick = () => {

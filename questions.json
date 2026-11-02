@@ -12017,5 +12017,3882 @@
   "exam": 4,
   "id": "4-150",
   "group": "G506"
+ },
+ {
+  "n": 1,
+  "page": 1,
+  "q": "Which of the following is a parenteral method of administering medications?",
+  "options": [
+   "Oral",
+   "Rectal",
+   "Sublingual",
+   "Subcutaneous"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Subcutaneous injection is a parenteral method of administering medications.",
+  "why": [
+   "Oral administration is a nonparenteral method of administering medications.",
+   "Rectal administration is a nonparenteral method of administering medications.",
+   "Sublingual administration is a nonparenteral method of administering medications.",
+   "Subcutaneous injection is a parenteral method of administering medications."
+  ],
+  "note": "Page is cut off below the last choice; the other three are marked INCORRECT, so Subcutaneous is the answer.",
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-1",
+  "group": "G507"
+ },
+ {
+  "n": 2,
+  "page": 2,
+  "q": "Which of the following statements explains the purpose of Meaningful Use guidelines?",
+  "options": [
+   "Providers must show they are using electronic health record (EHR) systems in ways that only quality can be measured.",
+   "Providers must show they are using electronic health record (EHR) systems in ways that only quantity of care can be measured.",
+   "Providers must show they are using electronic health record (EHR) systems in ways that can be measured significantly in both quantity and quality.",
+   "Providers must show they are using electronic health record (EHR) systems in ways that show quantity of care does not impact quality measurement."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Meaningful Use was enacted by the U.S. government to ensure EHR systems are being used in ways that allow both quantity and quality to be measured.",
+  "why": [
+   "Meaningful Use was enacted by the U.S. government to ensure EHR systems are being used in ways that allow both quantity and quality to be measured.",
+   "Meaningful Use wes enacted by the U.S. government to ensure EHR systems are being used in ways that allow both quantity and quality to be measured.",
+   "Meaningful Use was enacted by the U.S. government to ensure EHR systems are being used in ways that allow both quantity and quality to be measured.",
+   "Meaningful Use was enacted by the U.S. government to ensure EHR systems are being used in ways that allow both quantity and quality to be measured but does not set requirements for reporting how quantity of care impacts quality measures."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-2",
+  "group": "G508"
+ },
+ {
+  "n": 3,
+  "page": 3,
+  "q": "Which of the following departments is responsible for reviewing coagulation tests?",
+  "options": [
+   "Hematology",
+   "Chemistry",
+   "Microbiology",
+   "Immunohematology"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The hematology department is responsible for reviewing blood cell counts, morphologic studies, and coagulation tests.",
+  "why": [
+   "The hematology department is responsible for reviewing blood cell counts, morphologic studies, and coagulation tests.",
+   "The chemistry department is responsible for analyzing chemicals found in blood, cerebrospinal fluid, and urine.",
+   "The microbiology department is responsible for studying very small infectious organisms such as bacteria, fungi, and yeast.",
+   "The immunohematology department is responsible for blood typing."
+  ],
+  "topic": "Lab values & QC",
+  "exam": 5,
+  "id": "5-3",
+  "group": "G509"
+ },
+ {
+  "n": 4,
+  "page": 4,
+  "q": "A patient arrives at an emergency department with a large laceration to the wrist that is bleeding profusely. Which of the following actions should the medical assistant take first?",
+  "options": [
+   "Don gloves.",
+   "Elevate the extremity above the wound site.",
+   "Examine the wound site for foreign objects.",
+   "Place pressure directly on the wound with sterile gauze."
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant must don gloves prior to wound care to prevent further contamination.",
+  "why": [
+   "The assistant must don gloves prior to wound care to prevent further contamination.",
+   "This is an important step in wound care, but it is not the priority action.",
+   "This is an important step in wound care, but it is not the priority action.",
+   "This is an important step in wound care, but it is not the priority action."
+  ],
+  "topic": "Emergencies & triage",
+  "exam": 5,
+  "id": "5-4",
+  "group": "G510"
+ },
+ {
+  "n": 5,
+  "page": 5,
+  "q": "According to OSHA, which of the following is a guideline for disposing of biomedical waste?",
+  "options": [
+   "Health care facilities should retain biomedical waste containers for over 30 days.",
+   "Collection containers for biomedical waste should be leak proof and strong.",
+   "Hiring a biomedical waste disposal service is optional for health care facilities.",
+   "Biomedical waste containers should be labeled with the date of disposal."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Collection containers for biomedical waste should be leak proof and strong.",
+  "why": [
+   "Biomedical waste containers should not be retained for more than 30 days.",
+   "Collection containers for biomedical waste should be leak proof and strong.",
+   "Health care facilities are required to hire a biomedical waste disposal service.",
+   "Biomedical waste containers should be labeled with the chemical name."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-5",
+  "group": "G511"
+ },
+ {
+  "n": 6,
+  "page": 6,
+  "q": "A medical assistant is preparing a patient for a physical examination. Which of the following steps should the assistant take first?",
+  "options": [
+   "Give the patient a paper gown.",
+   "Verify the patient's identity.",
+   "Record the patient's vital signs.",
+   "Assist the patient into Fowler's position."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The first action the assistant should take is to verify the patient's identity. The assistant should ask the patient to state and spell their full name as well as provide their date of birth. The assistant should then compare this information to the patient's medical record.",
+  "why": [
+   "The assistant should explain to the patient which clothes should be removed and should provide é gown, offering assistance as needed. However, this step should be taken after completing the initial patient interview and prior to the provider entering the room.",
+   "The first action the assistant should take is to verify the patient's identity. The assistant should ask the patient to state and spell their full name as well as provide their date of birth. The assistant should then compare this information to the patient's medical record.",
+   "After successfully obtaining the patient's vital signs, the assistant should record them in the patient's medical record. However, this is not the first step the assistant should take.",
+   "The assistant should assist the patient into Fowler's position after completing the initial patient interview and prior to the provider entering the room. The assistant should place the examination table at a 90° angle."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-6",
+  "group": "G512"
+ },
+ {
+  "n": 7,
+  "page": 7,
+  "q": "A medical assistant is providing education to a patient about disease prevention. Which of the following is an example of disease prevention?",
+  "options": [
+   "Providing an adolescent patient educational material about tobacco use",
+   "Providing an instructional video based on the patient's treatment pian",
+   "Providing a patient with information about colon cancer screenings",
+   "Explaining how and when to perform a self-breast exam"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Providing an adolescent patient educational material about tobacco use is an example of disease prevention, because it provides the patient with information that can prevent engagement in risky health behaviors that lead to disease.",
+  "why": [
+   "Providing an adolescent patient educational material about tobacco use is an example of disease prevention, because it provides the patient with information that can prevent engagement in risky health behaviors that lead to disease.",
+   "Providing an instructional video that is specific to the patient is an example of coaching to encourage compliance with the treatment plan, because it provides necessary information for the patient to be able to follow through with the plan prescribed.",
+   "Providing a patient with information about colon cancer screenings is an exemple of health maintenance coaching, because it provides patients with information needed to complete routine screenings.",
+   "Explaining how and when to perform a self-breast exam is an example of health maintenance coaching, because it provides patients with information needed to complete routine screenings."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-7",
+  "group": "G513"
+ },
+ {
+  "n": 8,
+  "page": 8,
+  "q": "A medical assistant should identify that which of the following represents a potential contamination of a specimen that can result in testing errors or inaccurate results?",
+  "options": [
+   "Using non-expired collection containers",
+   "Using a well-mixed specimen before the aliquot is removed",
+   "Using a large volume of specimen",
+   "Using a hemolyzed blood specimen"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Using a hemolyzed blood specimen represents a potential contamination of a specimen that can result in testing errors or inaccurate results.",
+  "why": [
+   "Using non-expired collection containers reduces the risk of testing errors or inaccurate results.",
+   "Using a well-mixed specimen before the aliquot is removed reduces the risk of testing errors or inaccurate results.",
+   "Using a large volume of specimen reduces the risk of testing errors or inaccurate results.",
+   "Using a hemolyzed blood specimen represents a potential contamination of a specimen that can result in testing errors or inaccurate results."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-8",
+  "group": "G514"
+ },
+ {
+  "n": 9,
+  "page": 9,
+  "q": "A medical assistant is evaluating red blood cells (RBCs) microscopically. The assistant should identify that which of the following refers to an enlarged RBC?",
+  "options": [
+   "Normochromic",
+   "Normocytic",
+   "Macrocytic",
+   "Hypochromic"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Macrocytic refers to an enlarged RBC.",
+  "why": [
+   "Normochromic refers to RBCs that have an expected amount of hemoglobin.",
+   "Normocytic refers to a normal-sized RBC.",
+   "Macrocytic refers to an enlarged RBC.",
+   "Hypochromic refers to a pale-appearing RBC."
+  ],
+  "topic": "Lab values & QC",
+  "exam": 5,
+  "id": "5-9",
+  "group": "G515"
+ },
+ {
+  "n": 10,
+  "page": 10,
+  "q": "The National Childhood Vaccine Injury Act of 1988 requires which of the following information about the immunization be documented in a pediatric patient's permanent medical record?",
+  "options": [
+   "Address of the manufacturer",
+   "Date the vaccine was manufactured",
+   "Ingredients in the vaccine",
+   "Lot number of the vaccine"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The National Childhood Vaccine Injury Act of 1988 requires the lot number of the vaccine to be documented in a pediatric patient's permanent medical record.",
+  "why": [
+   "The National Childhood Vaccine Injury Act of 1988 requires the name, address, and title of the medical provider to be documented in a pediatric patient's permanent medical record. The address of the manufacturer does not need to be documented.",
+   "The National Childhood Vaccine Injury Act of 1988 requires the date the vaccine was given and the expiration date to be documented in a pediatric patient's permanent medical record. The date the vaccine was manufactured does not need to be documented.",
+   "The National Childhood Vaccine Injury Act of 1988 does not require the ingredients in the vaccine to be documented in a pediatric patient's permanent medical record.",
+   "The National Childhood Vaccine Injury Act of 1988 requires the lot number of the vaccine to be documented in a pediatric patient's permanent medical record."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-10",
+  "group": "G516"
+ },
+ {
+  "n": 11,
+  "page": 11,
+  "q": "A medical assistant is performing a venipuncture. At which of the following angles should the assistant insert the needle?",
+  "options": [
+   "15°",
+   "60°",
+   "45°",
+   "90°"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The medical assistant should insert the needle at a 15° angle when performing a venipuncture.",
+  "why": [
+   "The medical assistant should insert the needle at a 15° angle when performing a venipuncture.",
+   "The medical assistant should not insert the needle at a 60° angie when performing a venipuncture.",
+   "The medical assistant should not insert the needle at a 45° angie when performing a venipuncture.",
+   "The medical assistant should not insert the needle at a 90° angie when performing a venipuncture."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-11",
+  "group": "G517"
+ },
+ {
+  "n": 12,
+  "page": 12,
+  "q": "A medical assistant is viewing a patient's medical record to determine which diagnosis and procedure codes should be used for billing purposes. Which of the following describes this process?",
+  "options": [
+   "Auditing",
+   "Reviewing",
+   "Unbundling",
+   "Abstracting"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Abstracting is the process of reviewing a patient's medical record to determine what diagnosis and procedure codes should be used for billing purposes.",
+  "why": [
+   "Auditing is the process of checking claims to ensure they are complete.",
+   "Reviewing is the process of checking the diagnosis and procedure codes to ensure the provider is reimbursed correctly.",
+   "Unbundling is the process in which codes are separated out to bill for procedures separately.",
+   "Abstracting is the process of reviewing a patient's medical record to determine what diagnosis and procedure codes should be used for billing purposes."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-12",
+  "group": "G518"
+ },
+ {
+  "n": 13,
+  "page": 13,
+  "q": "Which of the following links in the chain of infection describes the site where an infection can be stored?",
+  "options": [
+   "Portal of entry",
+   "Susceptible host",
+   "Reservoir",
+   "Portal of exit"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The reservoir is where an infection can be stored.",
+  "why": [
+   "The portal of entry is where an infection can enter the body.",
+   "The susceptible host is the person who can acquire pathogens.",
+   "The reservoir is where an infection can be stored.",
+   "The portal of exit is how the infection leaves the body of one person to the susceptible host."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-13",
+  "group": "G519"
+ },
+ {
+  "n": 14,
+  "page": 14,
+  "q": "A medical assistant observes a provider failing to perform hand hygiene before beginning to remove sutures from a patient's hand. The patient's hand later becomes infected. The assistant should identify that which of the following legal torts has occurred?",
+  "options": [
+   "Negligence",
+   "Assault",
+   "Slander",
+   "Abandonment"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Negligence is the failure to exercise proper care for a patient, such as a provider or assistant not performing hand hygiene before starting a procedure.",
+  "why": [
+   "Negligence is the failure to exercise proper care for a patient, such as a provider or assistant not performing hand hygiene before starting a procedure.",
+   "Intentionally harming a patient's body with force is an example of assault.",
+   "Making false statements against a patient is an example of slander.",
+   "Discontinuing a patient's medical care without advance notice is an example of abandonment."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-14",
+  "group": "G520"
+ },
+ {
+  "n": 15,
+  "page": 15,
+  "q": "Which of the following signed forms should be on file in a patient's electronic health record in order for the medical assistant to discuss the patient's claim with a third-party payer?",
+  "options": [
+   "Medical records release",
+   "Advance Beneficiary Notice (ABN)",
+   "Advance directives",
+   "Release of information"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "A release of information form is signed by the patient to provide authorization for the practice to discuss confidential account information with a third-party payer.",
+  "why": [
+   "A medical records release form is signed by the patient to authorize the release of records to the assigned persons listed on the release.",
+   "An ABN is a form notifying the patient of services that may not meet Medicare's medical necessity requirements.",
+   "Advance directives are written instructions regarding a patient's health care decisions.",
+   "A release of information form is signed by the patient to provide authorization for the practice to discuss confidential account information with a third-party payer."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-15",
+  "group": "G521"
+ },
+ {
+  "n": 16,
+  "page": 16,
+  "q": "A medical assistant is reinforcing teaching with a patient who is scheduled for a standard 12-lead EKG. Which of the following statements should the assistant make?",
+  "options": [
+   "\"Your results will be provided immediately after the EKG is complete.\"",
+   "“You must sit in an upright position during this procedure.”",
+   "\"You will feel some electrical pulsations during this procedure.”",
+   "“You should refrain from talking during the procedure.”"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should instruct the patient to refrain from talking during the procedure. Even slight movements can interfere with the EKG tracing.",
+  "why": [
+   "The assistant should inform the patient that the provider will need to review the EKG results first and the patient will be notified of the results later.",
+   "The assistant should inform the patient that they will have to lie flat during the procedure.",
+   "The assistant should inform the patient that they will not feel electrical pulsations or shocks during the procedure.",
+   "The assistant should instruct the patient to refrain from talking during the procedure. Even slight movements can interfere with the EKG tracing."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-16",
+  "group": "G522"
+ },
+ {
+  "n": 17,
+  "page": 17,
+  "q": "A medical assistant is preparing a sterile field for a minor surgery. Which of the following should the assistant identify as a potential contamination?",
+  "options": [
+   "Touching the inside of the sterile pack",
+   "Touching the outer edges of the sterile pack",
+   "Opening the final flap of the sterile pack toward their body",
+   "Opening the sides of the sterile pack outward"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that touching the inside of the sterile pack will cause contamination of the sterile field.",
+  "why": [
+   "The assistant should identify that touching the inside of the sterile pack will cause contamination of the sterile field.",
+   "The assistant should identify that touching the outer edges of the sterile pack is the correct way to open a sterile pack and will not contaminate the sterile field.",
+   "The assistant should recognize that opening the final flap of the sterile pack toward their body is the correct way to open a sterile pack and will not contaminate the field.",
+   "The assistant should recognize that opening the sides of the sterile pack outward is the correct way to open a sterile pack and will not contaminate the field."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-17",
+  "group": "G523"
+ },
+ {
+  "n": 18,
+  "page": 18,
+  "q": "A medical assistant is performing a venipuncture. For which of the following amounts of time should the assistant observe the site after releasing pressure and applying a bandage to ensure there is no leakage?",
+  "options": [
+   "15 to 30 seconds",
+   "45 to 60 seconds",
+   "5 to 10 seconds",
+   "More than 60 seconds"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should observe the site for 5 to 10 seconds after releasing pressure and applying a bandage to ensure that there is no leakage.",
+  "why": [
+   "The assistant should observe the site for 5 to 10 seconds after releasing pressure and applying a bandage to ensure that there is no leakage.",
+   "The assistant should observe the site for 5 to 10 seconds after releasing pressure and applying a bandage to ensure that there is no leakage.",
+   "The assistant should observe the site for 5 to 10 seconds after releasing pressure and applying a bandage to ensure that there is no leakage.",
+   "The assistant should observe the site for 5 to 10 seconds after releasing pressure and applying a bandage to ensure that there is no leakage."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-18",
+  "group": "G524"
+ },
+ {
+  "n": 19,
+  "page": 19,
+  "q": "Which of the following dietary supplements promotes bone health?",
+  "options": [
+   "Folic acid",
+   "Iron",
+   "Vitamin D",
+   "Fiber"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Vitamin D supplements are used to promote bone health.",
+  "why": [
+   "Folic acid supplements are used by patients who are pregnant to prevent spina bifida in the child.",
+   "Iron supplements are used to treat iron-deficiency anemia.",
+   "Vitamin D supplements are used to promote bone health.",
+   "Fiber supplements are used to treat constipation."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-19",
+  "group": "G525"
+ },
+ {
+  "n": 20,
+  "page": 20,
+  "q": "Which of the following actions should a medical assistant take when communicating with a group of diverse patients?",
+  "options": [
+   "Incorporate generational terms.",
+   "Include slang.",
+   "Avoid eye contact.",
+   "Use a calm tone of voice."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should use a calm tone of voice when communicating with a group of patients.",
+  "why": [
+   "The assistant should avoid using generational terms when communicating with a group of diverse patients.",
+   "The assistant should avoid incorporating slang when communicating with a group of diverse patients.",
+   "The assistant should make appropriate eye contact with each patient in the group.",
+   "The assistant should use a calm tone of voice when communicating with a group of patients."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-20",
+  "group": "G526"
+ },
+ {
+  "n": 21,
+  "page": 21,
+  "q": "A medical assistant is assisting the provider with a patient who experienced an ankle sprain. The assistant should expect the provider to prescribe which of the following to treat the ankle sprain?",
+  "options": [
+   "Cast",
+   "Opioid analgesic",
+   "Ice",
+   "Heat"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should expect the provider to prescribe ice to treat an ankle sprain.",
+  "why": [
+   "A cast is appropriate for a fracture, not a sprain.",
+   "Anon-opioid analgesic is appropriate for an ankle sprain.",
+   "The assistant should expect the provider to prescribe ice to treat an ankle sprain.",
+   "Heat is not appropriate for an ankle sprain."
+  ],
+  "topic": "Emergencies & triage",
+  "exam": 5,
+  "id": "5-21",
+  "group": "G527"
+ },
+ {
+  "n": 22,
+  "page": 22,
+  "q": "Which of the following is a commonly misused word or phrase in written communication to a patient?",
+  "options": [
+   "Anyway",
+   "Suppose to",
+   "Toward",
+   "Used to"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "This is a commonly misused phrase in written communication to a patient. The correct use of the phrase is \"supposed to,” not \"suppose to.”",
+  "why": [
+   "The correct use of the word is “anyway,” not “anyways.”",
+   "This is a commonly misused phrase in written communication to a patient. The correct use of the phrase is \"supposed to,” not \"suppose to.”",
+   "The correct use of the word is \"toward,\" not \"towards.\"",
+   "The correct use of the phrase is \"used to,” not \"use to.”"
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-22",
+  "group": "G528"
+ },
+ {
+  "n": 23,
+  "page": 23,
+  "q": "A medical assistant is attempting to locate the best available vein for a venipuncture. Which of the following actions should the assistant take to feel a vein bounce?",
+  "options": [
+   "Apply a tourniquet.",
+   "Warm the area.",
+   "Palpate the area.",
+   "Apply ice to the area."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "When attempting to locate the best available vein for a venipuncture, the assistant should palpate the area to feel the vein bounce.",
+  "why": [
+   "The assistant should not apply a tourniquet to feel a vein bounce.",
+   "The assistant should not warm the area to feel a vein bounce.",
+   "When attempting to locate the best available vein for a venipuncture, the assistant should palpate the area to feel the vein bounce.",
+   "The assistant should not apply ice to the area to feel a vein bounce."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-23",
+  "group": "G529"
+ },
+ {
+  "n": 24,
+  "page": 24,
+  "q": "A medical assistant is preparing an examination room for a wellness screening. Which of the following actions should the assistant take to ensure the safety of the patient?",
+  "options": [
+   "Dim the lighting in the examination room.",
+   "Remove clutter from the examination room.",
+   "Reuse the examination table paper.",
+   "Clean and stock the examination room weekly."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should ensure the examination room is free from clutter.",
+  "why": [
+   "The assistant should ensure the examination room is well lit.",
+   "The assistant should ensure the examination room is free from clutter.",
+   "The assistant should change the examination table paper after completing each individual patient examination.",
+   "The assistant should clean and stock the examination rooms at the beginning of each day and between each patient."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-24",
+  "group": "G530"
+ },
+ {
+  "n": 25,
+  "page": 25,
+  "q": "A medical assistant is reinforcing teaching about medication administration at home with a patient. Which of the following statements should the assistant make regarding disposal of used needles?",
+  "options": [
+   "“Dispose of the used needles in the household trash can.”",
+   "“Collect the used needles in a recycle container to bring to the health care facility for disposal.”",
+   "\"Dispose of the used needles in a biohazard sharps container.\"",
+   "“Call your pharmacy for instructions on disposal of the used needles.”"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should instruct the patient to dispose of used needles in a biohazard sharps container. Patients can obtain a biohazard sharps container at a local pharmacy or medical supply store.",
+  "why": [
+   "The assistant should instruct the patient to dispose of used needles in a biohazard sharps container, not in a household trash can.",
+   "The assistant should instruct the patient to dispose of used needles in a biohazard sharps container, not collect them in a recycle container to bring to the health care facility for disposal.",
+   "The assistant should instruct the patient to dispose of used needles in a biohazard sharps container. Patients can obtain a biohazard sharps container at a local pharmacy or medical supply store.",
+   "The assistant should instruct the patient to dispose of used needles in a biohazard sharps container. There is no need for the patient to call the pharmacy for instructions."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-25",
+  "group": "G531"
+ },
+ {
+  "n": 26,
+  "page": 26,
+  "q": "When utilizing an electronic health record (EHR) system for printing computer-generated labels for specimens, which of the following should the medical assistant manually write on the specimen once a venipuncture is completed?",
+  "options": [
+   "Laboratory requisition number",
+   "Patient's name and date of birth",
+   "Time and assistant’s initials",
+   "Patient's medical record number"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should manually write the time and their initials on the specimen once the venipuncture is completed.",
+  "why": [
+   "The assistant does not need to manually write the laboratory requisition number on the specimen.",
+   "The assistant does not need to manually write the patient’s name and date of birth on the specimen.",
+   "The assistant should manually write the time and their initials on the specimen once the venipuncture is completed.",
+   "The assistant does not need to manually write the patient's medical record number on the specimen."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-26",
+  "group": "G532"
+ },
+ {
+  "n": 27,
+  "page": 27,
+  "q": "A provider suspects that a patient has fibromyalgia. A medical assistant should expect the provider to refer the patient to which of the following specialists?",
+  "options": [
+   "Gynecologist",
+   "Ophthalmologist",
+   "Gastroenterologist",
+   "Rheumatologist"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should expect the provider to refer the patient to a rheumatologist. A rheumatologist specializes in treating patients who have diseases of the joints, muscles, and bones, including fibromyalgia. Fibromyalgia is a disorder characterized by fatigue, musculoskeletal pain, and tender joints.",
+  "why": [
+   "A gynecologist specializes in treating patients who have diseases and disorders of the female reproductive system.",
+   "An ophthalmologist specializes in diagnosing and treating disorders and diseases of the eye.",
+   "A gastroenterologist specializes in treating patients who have diseases and disorders of the small and large intestines, stomach, gallbladder, and pancreas.",
+   "The assistant should expect the provider to refer the patient to a rheumatologist. A rheumatologist specializes in treating patients who have diseases of the joints, muscles, and bones, including fibromyalgia. Fibromyalgia is a disorder characterized by fatigue, musculoskeletal pain, and tender joints."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-27",
+  "group": "G533"
+ },
+ {
+  "n": 28,
+  "page": 28,
+  "q": "According to OSHA guidelines, a medical assistant should dispose of blood-soiled gauze dressings in which of the following?",
+  "options": [
+   "Red biohazard bag",
+   "Sharps container",
+   "Trash can with clear leak-proof liner",
+   "Purple medical waste container"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Blood-soiled gauze should be disposed of in a red biohazard bag.",
+  "why": [
+   "Blood-soiled gauze should be disposed of in a red biohazard bag.",
+   "Sharps containers are reserved for sharp instruments such as needles and lancets. The assistant should dispose of blood-soiled gauze in a red biohazard bag.",
+   "A clear liner in a trash can indicates that it is used for nonmedical waste. The assistant should dispose of blood-soiled gauze in a red biohazard bag.",
+   "Purple medical waste containers are reserved for special medical waste such as radioactive waste. The assistant should dispose of blood-soiled gauze in a red biohazard bag."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-28",
+  "group": "G534"
+ },
+ {
+  "n": 29,
+  "page": 29,
+  "q": "A medical assistant is examining the skin on a patient's forearm where the patient reports developing a rash. The assistant notes multiple solid elevations that are less than 0.5 cm (0.2 in) in diameter. Which of the following terms should the assistant use to document their observations in the patient's medical record?",
+  "options": [
+   "Papules",
+   "Macules",
+   "Vesicles",
+   "Pustules"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Papules are solid elevations that are less than 0.5 cm (0.2 in) in diameter. A common cause is allergic eczema.",
+  "why": [
+   "Papules are solid elevations that are less than 0.5 cm (0.2 in) in diameter. A common cause is allergic eczema.",
+   "Macules are flat areas of skin that are a different color than the surrounding skin. They have no elevation or depression. A common example ofa macule is é freckle.",
+   "Vesicles are small fluid-filled blisters. A common cause is a herpes viral infection.",
+   "Pustules are pus-filled blisters. A common example of a pustule is an acne blister."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-29",
+  "group": "G535"
+ },
+ {
+  "n": 30,
+  "page": 30,
+  "q": "A medical assistant is documenting in a patient's medical record after performing cardiopulmonary resuscitation. The assistant should identify that which of the following acronyms is used to indicate cardiopulmonary resuscitation?",
+  "options": [
+   "CPT",
+   "CRP",
+   "CPR",
+   "cc"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that CPR is the acronym for cardiopulmonary resuscitation.",
+  "why": [
+   "The assistant should identify that CPT is the acronym for current procedural terminology.",
+   "The assistant should identify that CRP is the acronym for C-reactive protein.",
+   "The assistant should identify that CPR is the acronym for cardiopulmonary resuscitation.",
+   "The assistant should identify that CC is the acronym for chief complaint."
+  ],
+  "topic": "Abbreviations",
+  "exam": 5,
+  "id": "5-30",
+  "group": "G536"
+ },
+ {
+  "n": 31,
+  "page": 31,
+  "q": "Which of the following actions by a medical assistant is an example of disease prevention coaching?",
+  "options": [
+   "Providing instructions about effective hand washing",
+   "Providing hands-on instruction about how to check a blood glucose level at home",
+   "Providing a patient with information about colon cancer screenings",
+   "Providing an adolescent patient educational material about tobacco use"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Providing a patient with instructions about effective hand washing is an example of disease prevention coaching, because it supports the patient's ability to stop the spread of disease.",
+  "why": [
+   "Providing a patient with instructions about effective hand washing is an example of disease prevention coaching, because it supports the patient's ability to stop the spread of disease.",
+   "Providing a patient with hands-on instruction about how to check a blood glucose level at home is an example of coaching to support compliance with the treatment plan, because it helps to ensure the patient has the skill and knowledge necessary to adhere to the plan.",
+   "Providing a patient with information about colon cancer screenings is an exemple of health maintenance coaching, because it provides patients with information needed to complete routine screenings.",
+   "Providing an adolescent patient educational material about tobacco use is an example of disease prevention because it provides the patient with information that can prevent engagement in risky health behaviors that lead to disease. However, this action is not an example of disease prevention coaching."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-31",
+  "group": "G537"
+ },
+ {
+  "n": 32,
+  "page": 32,
+  "q": "A medical assistant is performing a hematology test. Which of the following tubes should the assistant use for this test?",
+  "options": [
+   "Serum-separator",
+   "Red",
+   "Light green",
+   "Lavender"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "A lavender tube is used for hematology tests.",
+  "why": [
+   "A serum-separator tube is used for coagulation tests.",
+   "A red tube is used for serum tests.",
+   "A light green tube is used for plasma determinations in chemistry studies.",
+   "A lavender tube is used for hematology tests."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-32",
+  "group": "G538"
+ },
+ {
+  "n": 33,
+  "page": 33,
+  "q": "A medical assistant is filling out an incident report following exposure to a patient's blood. Which of the following actions should the assistant take?",
+  "options": [
+   "Submit the incident report to the front desk.",
+   "Include a copy of the incident report in the patient's health record.",
+   "Document witness statements in the incident report.",
+   "Document the incident report in pencil for easy editing."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should document any witness statements about how the incident occurred in the incident report.",
+  "why": [
+   "Ajl documentation related to the exposure must remain confidential and should be submitted to the supervisor.",
+   "Incident reports should not be included in a patient's health record.",
+   "The assistant should document any witness statements about how the incident occurred in the incident report.",
+   "Incident reports must be completed in pen or electronically."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-33",
+  "group": "G539"
+ },
+ {
+  "n": 34,
+  "page": 34,
+  "q": "A medical assistant is speaking on the phone with a patient who is very upset. After unsuccessfully diffusing the situation, which of the following individuals should the assistant notify?",
+  "options": [
+   "Supervisor",
+   "Coworker",
+   "Provider",
+   "Patient's family member"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should notify the supervisor if they are unable to diffuse the situation.",
+  "why": [
+   "The assistant should notify the supervisor if they are unable to diffuse the situation.",
+   "A coworker should not be notified in this situation.",
+   "The provider should not be notified in this situation.",
+   "A patient's family member should not be notified in this situation."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-34",
+  "group": "G540"
+ },
+ {
+  "n": 35,
+  "page": 35,
+  "q": "After a patient leaves an examination room, which of the following actions should a medical assistant take to prepare the examination table for the next patient?",
+  "options": [
+   "Wipe the table with a 50% solution of household bleach in water.",
+   "Roll up the disposable paper on the table tightly and quickly.",
+   "Crumple the paper before disposing of it.",
+   "Place the pillow on top of the fresh paper on the table."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Rolling the paper tightly minimizes the transmission of any contaminants on the paper. The assistant should dispose of the paper quickly and place it in a biohazardous waste container if it is wet or soiled.",
+  "why": [
+   "The assistant should disinfect the table and any other work surfaces with visible contamination from body fluids with a 10% solution of household bleach in water.",
+   "Rolling the paper tightly minimizes the transmission of any contaminants on the paper. The assistant should dispose of the paper quickly and place it in a biohazardous waste container if it is wet or soiled.",
+   "Crumpling or shaking the paper releases possible contaminants into the air and onto other surfaces.",
+   "The assistant should place the fresh paper on top of the pillow to avoid the next patient contaminating the pillow."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-35",
+  "group": "G541"
+ },
+ {
+  "n": 36,
+  "page": 36,
+  "q": "Which of the following is a common root word?",
+  "options": [
+   "Tripsy",
+   "Append",
+   "Anti",
+   "A"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Append is a common root word, referring to the appendix.",
+  "why": [
+   "Tripsy is a common suffix, meaning “crushing.”",
+   "Append is a common root word, referring to the appendix.",
+   "Anti is a common prefix, meaning “against.”",
+   "Ais a common prefix, meaning \"no\" or “without.”"
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-36",
+  "group": "G542"
+ },
+ {
+  "n": 37,
+  "page": 37,
+  "q": "A medical assistant is performing an EKG for a patient and notes a life-threatening arrhythmia. Which of the following actions should the assistant take?",
+  "options": [
+   "Unhook the patient from the machine and tell them to return later for their results.",
+   "Tell the patient that their EKG is normal.",
+   "Tell the patient that their EKG is abnormal.",
+   "Keep the patient hooked up to the machine and notify the provider immediately."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should keep the patient hooked up to the machine and notify the provider immediately.",
+  "why": [
+   "The assistant should keep the patient hooked up to the machine and notify the provider immediately.",
+   "The assistant cannot tell patients their results.",
+   "The assistant cannot tell patients their results.",
+   "The assistant should keep the patient hooked up to the machine and notify the provider immediately."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-37",
+  "group": "G543"
+ },
+ {
+  "n": 38,
+  "page": 38,
+  "q": "A medical assistant is preparing to obtain a patient's vital signs. Which of the following patient information should the assistant verify prior to obtaining the patient's vital signs?",
+  "options": [
+   "Date of birth",
+   "Social Security number",
+   "Phone number",
+   "Insurance ID"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should verify the patient's full name and date of birth prior to obtaining the patient's vital signs.",
+  "why": [
+   "The assistant should verify the patient's full name and date of birth prior to obtaining the patient's vital signs.",
+   "The assistant should verify the patient's full name and date of birth prior to obtaining the patient's vital signs.",
+   "The assistant should verify the patient's full name and date of birth prior to obtaining the patient's vital signs.",
+   "The assistant should verify the patient's full name and date of birth prior to obtaining the patient's vital signs."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-38",
+  "group": "G544"
+ },
+ {
+  "n": 39,
+  "page": 39,
+  "q": "A medical assistant provides preprocedural instructions to a patient that may require IV contrast and nothing by mouth for 4 to 6 hr. For which of the following diagnostic procedures are these instructions intended?",
+  "options": [
+   "Mammogram",
+   "Ultrasound",
+   "Computed tomography (CT) scan",
+   "X-ray"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "A CT scan uses x-rays to create pictures of cross sections of the body. The x-ray beam rotates, providing better images with the use of IV contrast. This test requires IV contrast and nothing by mouth for 4 to 6 hr.",
+  "why": [
+   "A mammogram is an x-ray picture of the breasts. IV contrast is not required for this diagnostic procedure.",
+   "An ultrasound uses high frequency sound waves to create an image within a certain area to be examined. IV contrast is not required for this diagnostic procedure.",
+   "A CT scan uses x-rays to create pictures of cross sections of the body. The x-ray beam rotates, providing better images with the use of IV contrast. This test requires IV contrast and nothing by mouth for 4 to 6 hr.",
+   "An x-ray is a test where x-ray particles pass through the body and an image is recorded. IV contrast is not required for this diagnostic procedure."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-39",
+  "group": "G545"
+ },
+ {
+  "n": 40,
+  "page": 40,
+  "q": "Which of the following laboratory values should a medical assistant report to the provider immediately?",
+  "options": [
+   "Blood glucose 500 mg/dL",
+   "Potassium 4.1 mEq/L",
+   "Hematocrit 42%",
+   "Hemoglobin 15 g/dL"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "This blood glucose level is far outside the expected reference range of 70 to 99 mg/dL. Therefore, the assistant should report this laboratory value to the provider immediately.",
+  "why": [
+   "This blood glucose level is far outside the expected reference range of 70 to 99 mg/dL. Therefore, the assistant should report this laboratory value to the provider immediately.",
+   "This potassium level is within the expected reference range. The expected reference range for potassium is 3.5 to 5 mEq/L.",
+   "This hematocrit level is within the expected reference range. The expected reference range for hematocrit for a male patient is 42% to 50%, and 37% to 47% for a female patient.",
+   "This hemoglobin level is within the expected reference range. The expected reference range for hemoglobin for a male patient is 14 to 18 g/dL, and 12 to 16 g/dL for a female patient."
+  ],
+  "topic": "Lab values & QC",
+  "exam": 5,
+  "id": "5-40",
+  "group": "G546"
+ },
+ {
+  "n": 41,
+  "page": 41,
+  "q": "A medical assistant is collecting a urine specimen from a patient for a drug screening. Which of the following actions should the assistant take to adhere to the chain of custody for this specimen?",
+  "options": [
+   "Ensure the specimen has a volume of 20 mL.",
+   "Record the specimen’s temperature 8 min after collection.",
+   "Send the specimen to the testing laboratory on the same day as the collection.",
+   "Ask the provider to supervise the collection and shipment of the specimen."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should send the specimen and completed requisition to the testing laboratory on the same day as the collection.",
+  "why": [
+   "The assistant should ensure that the specimen has the required volume of 30 to 45 mL.",
+   "The assistant should record the specimen’s temperature within 4 min of collection.",
+   "The assistant should send the specimen and completed requisition to the testing laboratory on the same day as the collection.",
+   "The assistant is responsible for the collection and shipment of the specimen."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-41",
+  "group": "G547"
+ },
+ {
+  "n": 42,
+  "page": 42,
+  "q": "A medical assistant is using a scale with a height bar to measure a patient's height. Which of the following actions should the assistant take?",
+  "options": [
+   "Raise the height ber when the patient is standing on the scale.",
+   "Have the patient face the weight indicators on the scale.",
+   "Have the patient stand up straight and look to one side.",
+   "Lower the horizontal bar gently so that it rests on the top of the patient's head."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "This position will show an accurate measurement of the patient's height on the vertical extension bar.",
+  "why": [
+   "Raising the height bar with the patient on the scale could result in injury to the patient.",
+   "The assistant should have the patient face away from the weight indicators to prevent inaccurate measurements.",
+   "To obtain the most accurate measurement of height, the patient should stand up straight and look straight ahead.",
+   "This position will show an accurate measurement of the patient's height on the vertical extension bar."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-42",
+  "group": "G548"
+ },
+ {
+  "n": 43,
+  "page": 43,
+  "q": "Which of the following is the minimum temperature for an autoclave to sterilize instruments?",
+  "options": [
+   "65.5° C (150° F)",
+   "93.3° C (200° F)",
+   "121.1° C (250° F)",
+   "135° C (275° F)"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "For an autoclave to properly sterilize instruments, the temperature must reach a minimum of 121.1° C (250° F).",
+  "why": [
+   "For an autoclave to properly sterilize instruments, the temperature must reach a minimum of 121.1° C (250° F).",
+   "For an autoclave to properly sterilize instruments, the temperature must reach a minimum of 121.1° C (250° F).",
+   "For an autoclave to properly sterilize instruments, the temperature must reach a minimum of 121.1° C (250° F).",
+   "For an autoclave to properly sterilize instruments, the temperature must reach a minimum of 121.1° C (250° F)."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-43",
+  "group": "G549"
+ },
+ {
+  "n": 44,
+  "page": 44,
+  "q": "A medical assistant is researching community resources that provide holistic care for a patient. Which of the following resources should the assistant select?",
+  "options": [
+   "Skilled nursing facility",
+   "Patient-centered medical home (PCMH)",
+   "Assisted living facility",
+   "Home health care"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should select a PCMH. A PCMH is a community resource that can help provide holistic care for a patient.",
+  "why": [
+   "A skilled nursing facility provides 24-hr medical care and supervision.",
+   "The assistant should select a PCMH. A PCMH is a community resource that can help provide holistic care for a patient.",
+   "An assisted living facility is a retirement facility for older adults.",
+   "Home health care includes therapy services, assistance with medications, and wound care."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-44",
+  "group": "G550"
+ },
+ {
+  "n": 45,
+  "page": 45,
+  "q": "A medical assistant is obtaining a patient's orthostatic vital signs. The assistant should identify that which of the following information is true regarding orthostatic vital signs?",
+  "options": [
+   "Orthostatic vital signs can be obtained as soon as the patient enters the exam room.",
+   "The position order for obtaining orthostatic vital signs is standing, sitting, then lying.",
+   "Dizziness is an expected finding for a patient who is having their orthostatic vital signs measured.",
+   "Wait 5 min with the patient lying down before obtaining the first orthostatic vital signs."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should have the patient lie down for S min before obtaining the patient's first orthostatic vital signs to establish a baseline resting blood pressure and pulse. They should then obtain the vital signs again while the patient is standing after 1 min, and then again after 3 min.",
+  "why": [
+   "The assistant should have the patient lie down for 5 min before obtaining the patient's first orthostatic vital signs to establish a baseline resting blood pressure and pulse. They should then obtain the vital signs again while the patient is standing after 1 min, and then again after 3 min.",
+   "The assistant should have the patient lie down for 5 min before obtaining the patient's first orthostatic vital signs to establish a baseline resting blood pressure and pulse. They should then obtain the vital signs again while the patient is standing after 1 min, and then again after 3 min.",
+   "Dizziness is not an expected finding and should be reported to the provider.",
+   "The assistant should have the patient lie down for S min before obtaining the patient's first orthostatic vital signs to establish a baseline resting blood pressure and pulse. They should then obtain the vital signs again while the patient is standing after 1 min, and then again after 3 min."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-45",
+  "group": "G551"
+ },
+ {
+  "n": 46,
+  "page": 46,
+  "q": "A medical assistant needs to remove all living micro-organisms from a contaminated towel clamp. Which of the following methods should the assistant use to cleanse this instrument?",
+  "options": [
+   "Disinfection",
+   "Sanitization",
+   "Sterilization",
+   "Ultrasonic"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Sterilization destroys all microbial life, including bacterial spores, through physical or chemical methods. Therefore, this is the method the assistant should use to cleanse the towel clamp.",
+  "why": [
+   "Disinfection destroys pathogenic micro-organisms, but it does not destroy bacterial spores.",
+   "Sanitization removes organic material from instruments and reduces the level of micro-organisms, but it does not destroy all micro-organisms.",
+   "Sterilization destroys all microbial life, including bacterial spores, through physical or chemical methods. Therefore, this is the method the assistant should use to cleanse the towel clamp.",
+   "The ultrasonic method is used to avoid direct handling of the instrument during the sanitization process. This method uses vibrations to loosen and remove debris but does not destroy micro-organisms."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-46",
+  "group": "G552"
+ },
+ {
+  "n": 47,
+  "page": 47,
+  "q": "A medical assistant is preparing to perform an EKG test for a patient. In which of the following locations should the assistant place the leg electrodes?",
+  "options": [
+   "Just above the ankles",
+   "Just above the knees",
+   "On top of the ankles",
+   "On top of the feet"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should place the leg electrodes just above the ankles on the inner side of the lower leg.",
+  "why": [
+   "The assistant should place the leg electrodes just above the ankles on the inner side of the lower leg.",
+   "The assistant should not place the electrodes just above the knees.",
+   "The assistant should not place the electrodes on top of the ankles.",
+   "The assistant should not place the electrodes on top of the feet."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-47",
+  "group": "G553"
+ },
+ {
+  "n": 48,
+  "page": 48,
+  "q": "A medical assistant should identify that which of the following is the term used to describe the aseptic technique that involves killing pathogens or rendering them inactive?",
+  "options": [
+   "Sterilization",
+   "Disinfection",
+   "Sanitization",
+   "Hand hygiene"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that disinfection is the aseptic technique that involves killing pathogens or rendering them inactive.",
+  "why": [
+   "Sterilization removes all pathogens and creates surgical asepsis.",
+   "The assistant should identify that disinfection is the aseptic technique that involves killing pathogens or rendering them inactive.",
+   "Sanitization reduces the presence of micro-organisms.",
+   "Hand hygiene is the process of washing the hands with soap and water or an alcohol-based hand sanitizer to wash debris away."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-48",
+  "group": "G554"
+ },
+ {
+  "n": 49,
+  "page": 49,
+  "q": "A medical assistant is assisting a patient who refuses to accept their terminal illness diagnosis. The assistant should identify that this patient is in which of the following Kubler-Ross stages of grief?",
+  "options": [
+   "Denial",
+   "Anger",
+   "Bargaining",
+   "Depression"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that the patient is in the denial stage of grief. A patient who is in the denial stage of grief refuses to accept the fact that they have a terminal illness.",
+  "why": [
+   "The assistant should identify that the patient is in the denial stage of grief. A patient who is in the denial stage of grief refuses to accept the fact that they have a terminal illness.",
+   "A patient who is in the anger stage of grief directs their anger at themselves or others. The patient's anger can oftentimes be directed toward issues unrelated to the diagnosis.",
+   "A patient who is in the bargaining stage of grief will attempt to bargain with their provider or a higher power.",
+   "A patient who is in the depression stage of grief experiences fear, uncertainty, and sadness because they dread the change that is happening."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-49",
+  "group": "G555"
+ },
+ {
+  "n": 50,
+  "page": 50,
+  "q": "A medical assistant is preparing to store medications. Which of the following information is true regarding the storage of medications?",
+  "options": [
+   "To save space for new medications, the same medications should be combined into one box.",
+   "All medications should be stored in the refrigerator.",
+   "Controlled substances should be stored in a location that is different from regular medications.",
+   "Stock medications and sample medications can be stored together."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Controlled substances should be stored in a location that is different from regular medications and should be stored in a locked cabinet.",
+  "why": [
+   "Medications should not be combined into one box, regardless if they are the same or different type of medication.",
+   "Not all medications are stored in the refrigerator. Medications can be stored ina refrigerator, freezer, or at room temperature.",
+   "Controlled substances should be stored in a location that is different from regular medications and should be stored in a locked cabinet.",
+   "Stock medications and sample medications should be stored in separate areas to be able to readily identify the samples that are no cost to the patient."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-50",
+  "group": "G556"
+ },
+ {
+  "n": 51,
+  "page": 51,
+  "q": "A medical assistant is assisting a provider with the repair of a laceration on a patient's head. The provider's prescription for the procedure includes an injection of 10 mL of lidocaine with epinephrine. The assistant should recognize that which of the following is the purpose of epinephrine in the local anesthetic?",
+  "options": [
+   "To reduce bleeding at the site",
+   "To reduce the patient's blood pressure",
+   "To prevent an allergic reaction to the lidocaine",
+   "To decrease the likelihood of infection"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should recognize that epinephrine is a vasoconstrictor. Its inclusion in the anesthetic reduces bleeding and prolongs the anesthetic's effects. Reducing the bleeding makes it easier for the provider to see the laceration during the repair.",
+  "why": [
+   "The assistant should recognize that epinephrine is a vasoconstrictor. Its inclusion in the anesthetic reduces bleeding and prolongs the anesthetic's effects. Reducing the bleeding makes it easier for the provider to see the laceration during the repair.",
+   "Epinephrine is a vasoconstrictor. When used along with an anesthetic, it is used to reduce bleeding and increase the effectiveness of the anesthetic.",
+   "Epinephrine will not affect a patient's allergies.",
+   "Epinephrine is not an antiseptic and will not decrease the chance of infection. It is possible that epinephrine by itself might actually increase the chances of infection at the site of the laceration. Therefore, the provider will use an additional antiseptic at the site after the laceration is repaired if epinephrine is used."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-51",
+  "group": "G557"
+ },
+ {
+  "n": 52,
+  "page": 52,
+  "q": "A medical assistant is providing instructions to a patient about how to take an extended-release medication orally. Which of the following patient statements indicates a need for further teaching?",
+  "options": [
+   "“I can crush or chew the pill if it is too hard for me to swallow.”",
+   "“I should drink plenty of water when taking the extended-release pill.”",
+   "\"Extended-release pills provide’a consistent amount of medication for my body to use over a period of time.\"",
+   "\"I should take my pill at the same time each day.”"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Extended-release pills should never be crushed or chewed.",
+  "why": [
+   "Extended-release pills should never be crushed or chewed.",
+   "The patient should take the pill with water.",
+   "Extended-release pills provide a consistent amount of medication over time.",
+   "Taking the pill at the same time every day helps ensure a constant medication level in the blood."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-52",
+  "group": "G558"
+ },
+ {
+  "n": 53,
+  "page": 53,
+  "q": "Which of the following pieces of equipment is used for removing cancers of the skin?",
+  "options": [
+   "Electrosurgical unit",
+   "Operating microscope",
+   "Cryoprobe",
+   "Endoscope"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "A cryoprobe is used for removing cancers of the skin and warts.",
+  "why": [
+   "An electrosurgical unit is used to cauterize blood vessels to reduce bleeding.",
+   "An operating microscope is used to perform delicate procedures, such as otologic or rhinologic procedures.",
+   "A cryoprobe is used for removing cancers of the skin and warts.",
+   "An endoscope is used to examine the inside of an organ or body cavity."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-53",
+  "group": "G559"
+ },
+ {
+  "n": 54,
+  "page": 54,
+  "q": "Which of the following drug classifications reduces the progression of cancer cells?",
+  "options": [
+   "Antineoplastics",
+   "Analgesics",
+   "Antitussives",
+   "Antiemetics"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Antineoplastics slow the growth of cancer cells.",
+  "why": [
+   "Antineoplastics slow the growth of cancer cells.",
+   "Analgesics reduce pain.",
+   "Antitussives suppress coughs.",
+   "Antiemetics reduce nausea and vomiting."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-54",
+  "group": "G560"
+ },
+ {
+  "n": 55,
+  "page": 55,
+  "q": "A medical assistant should identify that which of the following procedures requires prior authorization?",
+  "options": [
+   "Pulmonary function test (PFT)",
+   "Electrocardiogram (EKG)",
+   "Endoscopy",
+   "Urinalysis"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that an endoscopy requires prior authorization from a third-party payer. Prior authorization is required for additional procedures to be performed outside the medical office, such as a surgical procedure, radiology test, and hospital visit.",
+  "why": [
+   "PFTs are commonly performed in a medical office as part of a physical exam. Therefore, they do not require prior authorization.",
+   "EKGs are commonly performed in a medical office as part of a physical exam. Therefore, they do not require prior authorization.",
+   "The assistant should identify that an endoscopy requires prior authorization from a third-party payer. Prior authorization is required for additional procedures to be performed outside the medical office, such as a surgical procedure, radiology test, and hospital visit.",
+   "A lab test such as urinalysis does not require prior authorization."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-55",
+  "group": "G561"
+ },
+ {
+  "n": 56,
+  "page": 56,
+  "q": "Which of the following guidelines should a medical assistant follow when handling other potentially infectious materials (OPIMs)?",
+  "options": [
+   "Dispose of OPIMs in a standard waste basket.",
+   "Clean up spills from OPIMs using a disinfectant.",
+   "Wipe off all specimen containers with a paper towel.",
+   "Set aside any broken specimen containers."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should clean up spills from OPIMs using a disinfectant.",
+  "why": [
+   "The assistant should dispose of OPIMs according to federal and state guidelines.",
+   "The assistant should clean up spills from OPIMs using a disinfectant.",
+   "The assistant should wipe off all specimen containers using a germicide.",
+   "The assistant should dispose of any broken specimen containers immediately into a sharps container."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-56",
+  "group": "G562"
+ },
+ {
+  "n": 57,
+  "page": 57,
+  "q": "Which of the following tests measures ventilation function in a normal breath of a patient?",
+  "options": [
+   "Pulse oximetry",
+   "Spirometry",
+   "CT scan of the pulmonary arteries",
+   "High-resolution computerized tomography (HRCT) scan"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "A spirometry test measures ventilation function in a normal breath of a patient.",
+  "why": [
+   "A pulse oximetry test determines the amount of oxygen in the blood.",
+   "A spirometry test measures ventilation function in a normal breath of a patient.",
+   "A CT scan is used to evaluate for pulmonary embolus.",
+   "An HRCT scan is used to evaluate pulmonary fibrosis."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-57",
+  "group": "G563"
+ },
+ {
+  "n": 58,
+  "page": 58,
+  "q": "A medical assistant is administering a medication to a patient. Following administration, the patient experiences shortness of breath, dizziness, and throat tightening. The assistant should identify that the patient is likely experiencing which of the following?",
+  "options": [
+   "Septic shock",
+   "Hematemesis",
+   "Anaphylactic shock",
+   "Hypothermia"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that the patient is likely experiencing anaphylactic shock. Manifestations of anaphylactic shock include shortness of breath, dizziness, and throat tightening.",
+  "why": [
+   "Septic shock is caused by a severe underlying infection that directly affects vital organs. Manifestations of shock include anxiety, dizziness, confusion, shallow respirations, and a rapid, weak pulse.",
+   "Hematemesis is caused by a gastrointestinal disorder, causing a patient to vomit. If it persists it can cause the patient to go into shock but is not an allergic reaction. A manifestation of hematemesis includes vomiting of blood.",
+   "The assistant should identify that the patient is likely experiencing anaphylactic shock. Manifestations of anaphylactic shock include shortness of breath, dizziness, and throat tightening.",
+   "Hypothermia occurs when the core body temperature drops below 35° C (95° F). Manifestations of hypothermia include lack of feeling, numbness, and cool skin."
+  ],
+  "topic": "Emergencies & triage",
+  "exam": 5,
+  "id": "5-58",
+  "group": "G564"
+ },
+ {
+  "n": 59,
+  "page": 59,
+  "q": "Which of the following should a medical assistant verify when preparing a medication for a patient?",
+  "options": [
+   "The patient's employer",
+   "The rights of medication administration",
+   "The patient's insurance",
+   "The patient's home address"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should verify the rights of medication administration when preparing a prescription.",
+  "why": [
+   "The assistant should verify the rights of medication administration when preparing a prescription. This does not include verifying the patient's employer.",
+   "The assistant should verify the rights of medication administration when preparing a prescription.",
+   "The assistant should verify the rights of medication administration when preparing a prescription. This does not include verifying the patient's insurance.",
+   "The assistant should verify the rights of medication administration when preparing a prescription. This does not include verifying the patient's home address."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-59",
+  "group": "G565"
+ },
+ {
+  "n": 60,
+  "page": 60,
+  "q": "Which of the following may result in a denied claim?",
+  "options": [
+   "The patient is covered by an insurance plan.",
+   "A procedure was listed as an insurance benefit.",
+   "Preauthorization for services was obtained.",
+   "Medical necessity was unconfirmed."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "A denied claim would result if a third-party payer was unable to confirm medical necessity.",
+  "why": [
+   "A denied claim would result if the patient was not covered by an insurance plan.",
+   "A denied claim would result if a procedure was not listed as an insurance benefit.",
+   "A denied claim would result if preauthorization for services was not obtained.",
+   "A denied claim would result if a third-party payer was unable to confirm medical necessity."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-60",
+  "group": "G566"
+ },
+ {
+  "n": 61,
+  "page": 61,
+  "q": "Which of the following describes the disorder in which a person continually checks the door locks?",
+  "options": [
+   "Generalized anxiety disorder",
+   "Obsessive-compulsive disorder",
+   "Panic disorder",
+   "Autism spectrum disorder"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Obsessive-compulsive disorder is a disorder that causes a person to have frequent thoughts or obsessions and an urge to repeat behaviors, such as checking door locks or cleaning.",
+  "why": [
+   "Generalized anxiety disorder is a disorder that is characterized by a constant anxious feeling.",
+   "Obsessive-compulsive disorder is a disorder that causes a person to have frequent thoughts or obsessions and an urge to repeat behaviors, such as checking door locks or cleaning.",
+   "Panic disorder is a disorder that is characterized by unexpected feelings of danger being present.",
+   "Autism spectrum disorder is a developmental disorder that appears by age 2 and presents with difficulty interacting or communicating with others."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-61",
+  "group": "G567"
+ },
+ {
+  "n": 62,
+  "page": 62,
+  "q": "A medical assistant discovers an unidentifiable liquid on the floor of one of the clinic's treatment rooms. Which of the following materials should the assistant use to remove and dispose of the liquid?",
+  "options": [
+   "A clean-up kit",
+   "A mop and bleach",
+   "Floor cleaning solution",
+   "A surgical towel double bagged in trash bags"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "A clean-up kit is used to safely dispose of unidentified and possibly biohazardous materials in a clinical setting. The assistant should follow the necessary steps for clean-up and disposal of the liquid to guarantee asepsis and patient safety.",
+  "why": [
+   "A clean-up kit is used to safely dispose of unidentified and possibly biohazardous materials in a clinical setting. The assistant should follow the necessary steps for clean-up and disposal of the liquid to guarantee asepsis and patient safety.",
+   "The assistant should recognize that although bleach is a disinfecting agent, it does not meet the Bloodborne Pathogens Standard for clinical infection control and asepsis.",
+   "The assistant should recognize that although floor cleaning solution is a disinfecting agent, it does not meet the Bloodborne Pathogens Standard for clinical infection control and asepsis.",
+   "The assistant should recognize that the Bloodborne Pathogens Standard for clinical infection control and asepsis requires an impermeable red biohazard bag that has been properly labeled. A surgical towel disposed of in normal plastic trash bags, even when used in a double-bagged form, does not meet this standard."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-62",
+  "group": "G568"
+ },
+ {
+  "n": 63,
+  "page": 63,
+  "q": "Which of the following clinical roles identifies patient needs and barriers, assists with coordination of care, and assists patients with finding community resources?",
+  "options": [
+   "Coders",
+   "Patient navigators",
+   "Billers",
+   "Medical laboratory assistant"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Patient navigators identify patient needs and barriers, assist with coordination of care, and assist patients with finding community resources.",
+  "why": [
+   "Coders assign diagnostic codes.",
+   "Patient navigators identify patient needs and barriers, assist with coordination of care, and assist patients with finding community resources.",
+   "Billers maintain accurate medical records and process insurance claims.",
+   "A medical laboratory assistant has specialized training in blood collection."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-63",
+  "group": "G569"
+ },
+ {
+  "n": 64,
+  "page": 64,
+  "q": "A superbill must include which of the following information to ensure accurate billing?",
+  "options": [
+   "Diagnosis code",
+   "Authorization number",
+   "Return visit date",
+   "Security code"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "A superbill must include the patient's name, date of service, provider, services provided, and the diagnosis code to ensure accurate billing.",
+  "why": [
+   "A superbill must include the patient's name, date of service, provider, services provided, and the diagnosis code to ensure accurate billing.",
+   "An authorization number is not required on a superbill.",
+   "A return visit date is not required on a superbill.",
+   "A security code is not required on a superbill."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-64",
+  "group": "G570"
+ },
+ {
+  "n": 65,
+  "page": 65,
+  "q": "A medical assistant should identify that which of the following pieces of equipment must be disinfected before and after use?",
+  "options": [
+   "Otoscope",
+   "Nasal specula",
+   "Surgical scissors",
+   "Penlight"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "A nasal specula must be disinfected before and after use. Disinfection is required to remove most micro-organisms, and because the nasal specula encounters the mucous membrane, it requires disinfecting.",
+  "why": [
+   "An otoscope can be sanitized and reused without further disinfection or sterilization.",
+   "A nasal specula must be disinfected before and after use. Disinfection is required to remove most micro-organisms, and because the nasal specula encounters the mucous membrane, it requires disinfecting.",
+   "Surgical scissors are required to be sterilized, not just disinfected, which is essential for surgical asepsis.",
+   "A penlight can be sanitized and reused without further disinfection or sterilization."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-65",
+  "group": "G571"
+ },
+ {
+  "n": 66,
+  "page": 66,
+  "q": "A medical assistant is checking a patient's hearing using the Weber test. Which of the following actions should the assistant take?",
+  "options": [
+   "Position a vibrating tuning fork over the patient's mastoid process.",
+   "Invert a vibrating tuning fork while the patient still hears sound.",
+   "Instruct the patient to raise their hand when they no longer hear any sound.",
+   "Ask the patient if they hear the vibration louder in one ear than the other."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "When performing the Weber test, the assistant should ask the patient if they hear the vibration louder in one ear than the other. The Weber test is used to determine if a patient's hearing is better in one ear.",
+  "why": [
+   "This action describes a step in the Rinne test, which is a different method of testing sound conduction.",
+   "This action describes a step in the Rinne test, which is a different method of testing sound conduction.",
+   "This action describes a step in the Rinne test, which is a different method of testing sound conduction.",
+   "When performing the Weber test, the assistant should ask the patient if they hear the vibration louder in one ear than the other. The Weber test is used to determine if a patient's hearing is better in one ear."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-66",
+  "group": "G572"
+ },
+ {
+  "n": 68,
+  "page": 67,
+  "q": "Which of the following is a component of a patient's health record and represents the foundation and starting point of all patient-provider contacts?",
+  "options": [
+   "Release of information",
+   "Complete medical history",
+   "Advanced Beneficiary Notice (ABN)",
+   "Informed consent form"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "A patient's complete medical history and physical examination are components of a patient's health record that represent the foundation and starting point of all patient-provider contacts.",
+  "why": [
+   "A release of information authorizes the medical facility to release a patient's medical records to a third-party payer.",
+   "A patient's complete medical history and physical examination are components of a patient's health record that represent the foundation and starting point of all patient-provider contacts.",
+   "An ABN notifies a patient of services not covered by Medicare.",
+   "An informed consent form is a document signed by a patient authorizing a provider to perform an invasive procedure."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-68",
+  "group": "G573"
+ },
+ {
+  "n": 69,
+  "page": 68,
+  "q": "A provider prescribes a new diabetes medication during a patient's visit. Which of the following questions should the medical assistant ask the patient to ensure there are no potential medication interactions?",
+  "options": [
+   "“Are you currently taking any over-the-counter, herbal, or prescription medications?”",
+   "\"Are you fasting?”",
+   "\"What is the date of your last menstrual period?”",
+   "“What medications would you like the doctor to discontinue?”"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The provider needs to know all medications a patient is taking to ensure there are no potential medication interactions.",
+  "why": [
+   "The provider needs to know all medications a patient is taking to ensure there are no potential medication interactions.",
+   "Asking the patient if they are fasting is important to administering medication and preparing for a procedure, but it is not relevant to preventing potential medication interactions.",
+   "Asking a patient about their fast menstrual period date is not relevant to preventing potential medication interactions.",
+   "The patient's medication preferences are important but are not relevant in preventing potential medication interactions."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-69",
+  "group": "G574"
+ },
+ {
+  "n": 70,
+  "page": 69,
+  "q": "A medical assistant is ensuring that documentation of preventative maintenance and screenings is included in the electronic health record (EHR) of a female patient who is 70 years old. The assistant should identify that which of the following screenings is performed every 2 years for females who are 65 years and older and should be documented in the patient's EHR?",
+  "options": [
+   "Bone density",
+   "Lung cancer",
+   "Colonoscopy",
+   "Prostate cancer"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify that bone density screenings should be performed every 2 years for females who are 65 years and older.",
+  "why": [
+   "The assistant should identify that bone density screenings should be performed every 2 years for females who are 65 years and older.",
+   "Lung cancer screenings should be performed for patients who meet specific criteria and are between 55 to 80 years old.",
+   "Colonoscopies should be performed every 3 years for patients who are between 45 to 75 years old.",
+   "Prostate cancer screenings should be performed in male patients who are 50 years and older."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-70",
+  "group": "G575"
+ },
+ {
+  "n": 71,
+  "page": 70,
+  "q": "A medical assistant is preparing to submit a referral to a cardiologist via fax. Which of the following actions should the assistant take first?",
+  "options": [
+   "Dial the receiving fax machine's telephone number.",
+   "Check the fax machine's connection.",
+   "Prepare a fax cover sheet.",
+   "Scan the document."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The first action the assistant should take when sending a fax is to prepare a fax cover sheet. All medical documentation must be transmitted with a cover sheet, including a disclaimer.",
+  "why": [
+   "Dialing the receiving fax machine's telephone number is a step the assistant should take when sending a fax. However, there is another step the assistant should take first.",
+   "Checking the fax machine's connection is a step the assistant should take when sending a fax. However, there is a step the assistant should take first.",
+   "The first action the assistant should take when sending a fax is to prepare a fax cover sheet. All medical documentation must be transmitted with a cover sheet, including a disclaimer.",
+   "Scanning the document is a step the assistant should take when sending a fax. However, there is another step the assistant should take first."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-71",
+  "group": "G576"
+ },
+ {
+  "n": 72,
+  "page": 71,
+  "q": "Which of the following describes when a primary care provider, pharmacist, therapist, and a medical assistant work together to ensure the appropriate dose of psychotic drugs are being prescribed for a patient?",
+  "options": [
+   "Teamwork",
+   "Cultural diversity",
+   "Patient Advocacy",
+   "Work ethics"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Teamwork involves working with team members across the health care systems in the best interest of completing a job or task, or for providing quality care to a patient.",
+  "why": [
+   "Teamwork involves working with team members across the health care systems in the best interest of completing a job or task, or for providing quality care to a patient.",
+   "Cultural diversity is the variety in customs, attitudes, practices, and behavior that exists among groups of people from different ethnic, racial, or national backgrounds who come into contact with each other.",
+   "Patient advocacy is the act of speaking and acting on behalf of a patient's needs and well-being.",
+   "Work ethics are a set of values held by employees."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-72",
+  "group": "G577"
+ },
+ {
+  "n": 73,
+  "page": 72,
+  "q": "Which of the following sexually transmitted infections (STIs) is bacterial?",
+  "options": [
+   "Gonorrhea",
+   "Herpes simplex",
+   "Trichomoniasis",
+   "Pubic lice"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Gonorrhea is a bacterial infection caused by the bacteria Neisseria gonorrhoeae.",
+  "why": [
+   "Gonorrhea is a bacterial infection caused by the bacteria Neisseria gonorrhoeae.",
+   "Herpes simplex is a viral infection.",
+   "Trichomoniasis is an infection caused by the parasite Trichomonas vaginalis.",
+   "Pubic lice, also Known as \"crabs,\" is an infection by the parasite Pediculosis pubis."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-73",
+  "group": "G578"
+ },
+ {
+  "n": 74,
+  "page": 73,
+  "q": "A medical assistant is performing a credit adjustment on a patient account. At which of the following times should the assistant post the adjustment to the patient ledger?",
+  "options": [
+   "At the same time the payment is posted",
+   "Within 1 week of services performed",
+   "After the check is returned from the bank",
+   "Before the balance on the Explanation of Benefits (EOB) is entered"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should post the adjustment to the patient ledger at the same time the payment is posted.",
+  "why": [
+   "The assistant should post the adjustment to the patient ledger at the same time the payment is posted.",
+   "The assistant should post the adjustment to the patient ledger at the same time the payment is posted.",
+   "A debit adjustment would be made after a check is returned from the bank.",
+   "The balance would be entered into the ledger before any credit adjustments."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-74",
+  "group": "G579"
+ },
+ {
+  "n": 75,
+  "page": 74,
+  "q": "A patient's inability to trust health care workers is an example of which of the following barriers in health care?",
+  "options": [
+   "Language",
+   "Boundaries",
+   "Cultural competence",
+   "Cultural differences"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "A patient's inability to trust health care workers is an example of cultural differences. Cultural differences are attitudes, perceptions, behaviors, and expectations that patients pick up from their family, friends, and ethic group.",
+  "why": [
+   "A language barrier occurs when participants in a conversation don’t speak the same language. A language barrier makes it difficult for patients to express their needs or feelings effectively.",
+   "Boundaries are physical or psychological barriers that indicate the limit of appropriate versus inappropriate behavior.",
+   "Cultural competence is a health care worker's ability to respond to the cultural and language needs of the patients they encounter.",
+   "A patient's inability to trust health care workers is an example of cultural differences. Cultural differences are attitudes, perceptions, behaviors, and expectations that patients pick up from their family, friends, and ethic group."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-75",
+  "group": "G580"
+ },
+ {
+  "n": 76,
+  "page": 75,
+  "q": "When preparing for a cyst removal, which of the following pieces of equipment should a medical assistant place in the sterile field for the provider?",
+  "options": [
+   "Syringe and needle",
+   "Splint and/or guard",
+   "Dressing and/or bandage",
+   "Specimen container"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "When preparing for a cyst removal, the assistant should place a syringe and needle in the sterile field for the provider.",
+  "why": [
+   "When preparing for a cyst removal, the assistant should place a syringe and needle in the sterile field for the provider.",
+   "A splint and/or guard should be placed on a side counter.",
+   "The dressing and/or bandage should be placed on a side counter.",
+   "The specimen container should be placed on a side counter."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-76",
+  "group": "G581"
+ },
+ {
+  "n": 77,
+  "page": 76,
+  "q": "Which of the following is outside of a medical assistant’s scope of practice?",
+  "options": [
+   "Performing clinical duties under the direct supervision of the provider",
+   "Ordering additional laboratory tests to confirm the patient's condition",
+   "Providing directions to a patient about preparation for a diagnostic test",
+   "Reinforcing instructions about medications and special diets"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "It is outside of a medical assistant's scope of practice to order additional laboratory tests without a provider's prescription.",
+  "why": [
+   "Medical assistants are unlicensed personnel who must work under the direct supervision of a licensed health care provider.",
+   "It is outside of a medical assistant's scope of practice to order additional laboratory tests without a provider's prescription.",
+   "Patient instruction about preparation for diagnostic testing is within an assistant’s scope of practice.",
+   "Reinforcing patient instructions is within an assistant’s scope of practice."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-77",
+  "group": "G582"
+ },
+ {
+  "n": 78,
+  "page": 77,
+  "q": "Which of the following refers to the range of fees charged by providers who have similar training and experience and practice in the same geographical area?",
+  "options": [
+   "Managed Care Organization (MCO)",
+   "Preferred Provider Organization (PPO)",
+   "Usual, Customary, and Reasonable (UCR)",
+   "Affordable Care Act (ACA)"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "UCR is the range of fees charged by providers who have similar training and experience and practice in the same geographical area.",
+  "why": [
+   "An MCO is a health insurance company that provides cost-effective care to members.",
+   "A PPO is a managed care network that selects a group of providers to contract with.",
+   "UCR is the range of fees charged by providers who have similar training and experience and practice in the same geographical area.",
+   "The ACA was created to increase affordability, availability, and quality of health insurance."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-78",
+  "group": "G583"
+ },
+ {
+  "n": 79,
+  "page": 78,
+  "q": "A medical assistant is classifying services that a patient requires. The assistant should identify which of the following as an ancillary diagnostic service?",
+  "options": [
+   "Cardiology",
+   "Pathology",
+   "Oncology",
+   "Gerontology"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Ancillary diagnostic services, such as pathology and radiology, provide confirmation of patient diagnoses.",
+  "why": [
+   "Although cardiology can involve diagnostic services, itis a specialty and does not fall within the ancillary diagnostic service classification.",
+   "Ancillary diagnostic services, such as pathology and radiology, provide confirmation of patient diagnoses.",
+   "Although oncology can involve diagnostic services, it is a specialty and does not fall within the ancillary diagnostic service classification.",
+   "Although gerontology can involve diagnostic services, it is a specialty and does not fall within the ancillary diagnostic service classification."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-79",
+  "group": "G584"
+ },
+ {
+  "n": 80,
+  "page": 79,
+  "q": "A medical assistant is assisting with a scratch test for a pediatric patient. The assistant should identify that which of the following statements describes the scratch test?",
+  "options": [
+   "Reactions will usually occur within 30 min to 1 hr.",
+   "Several allergies can be identified at one time.",
+   "Reactions are typically noted as a numerical value from 10 to 20.",
+   "Patients may immediately leave after the results of the test are confirmed."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The scratch test can identify 70 or more allergies at one time.",
+  "why": [
+   "Reactions from the scratch test will usually occur within 10 to 30 min.",
+   "The scratch test can identify 70 or more allergies at one time.",
+   "Reactions are noted as numerical values, typically from 2 to 4.",
+   "Patients should wait at least 30 min after the test to ensure no unexpected reactions occur."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-80",
+  "group": "G585"
+ },
+ {
+  "n": 81,
+  "page": 80,
+  "q": "Which of the following body systems work together to control and maintain homeostasis?",
+  "options": [
+   "Endocrine and nervous systems",
+   "Respiratory and muscular systems",
+   "Cardiovascular and lymphatic systems",
+   "Integumentary and skeletal systems"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The endocrine and nervous systems work together to control and maintain homeostasis. The nervous system helps monitor temperature, pressure, and the chemical conditions of bodily fluids while the endocrine system secretes hormones and responses from imbalances or abnormal conditions.",
+  "why": [
+   "The endocrine and nervous systems work together to control and maintain homeostasis. The nervous system helps monitor temperature, pressure, and the chemical conditions of bodily fluids while the endocrine system secretes hormones and responses from imbalances or abnormal conditions.",
+   "The respiratory system delivers oxygen and removes carbon dioxide from cells. The muscular system helps with movement and heat production.",
+   "The cardiovascular system transports blood throughout the body. The lymphatic system maintains fluid balance.",
+   "The integumentary system is the body's outer layer and helps provide protection for the body. The skeletal system is the body's framework and provides support and also helps protects the body."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-81",
+  "group": "G586"
+ },
+ {
+  "n": 82,
+  "page": 81,
+  "q": "Which of the following positions is appropriate for a pelvic examination?",
+  "options": [
+   "Lithotomy",
+   "Prone",
+   "Supine",
+   "Fowler's"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The lithotomy position is appropriate for pelvic examinations.",
+  "why": [
+   "The lithotomy position is appropriate for pelvic examinations.",
+   "The prone position is appropriate for an examination of the back of the body.",
+   "The supine position is appropriate for an examination of the front of the body.",
+   "Fowler's position is appropriate for a patient who is short of breath or has sustained a head injury."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-82",
+  "group": "G587"
+ },
+ {
+  "n": 83,
+  "page": 82,
+  "q": "A medical assistant is checking a patient in. The assistant should identify that a check-in sheet that requests which of the following information violates HIPAA laws?",
+  "options": [
+   "Patient's appointment time",
+   "Name of the provider the patient is seeing",
+   "Reason for the patient's visit",
+   "Patient's name"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "A check-in sheet requesting the reason for the patient's visit is a violation of a patient's privacy and violates HIPAA laws.",
+  "why": [
+   "A check-in sheet that requests the patient's appointment time does not violate HIPAA laws.",
+   "A check-in sheet requesting the name of the provider the patient is seeing does not violate HIPAA laws.",
+   "A check-in sheet requesting the reason for the patient's visit is a violation of a patient's privacy and violates HIPAA laws.",
+   "A check-in sheet requesting the patient's name does not violate HIPAA laws, it is an incidental exposure."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-83",
+  "group": "G588"
+ },
+ {
+  "n": 84,
+  "page": 83,
+  "q": "A patient has fallen and has a bone protruding through the skin. This injury is an example of which of the following types of fractures?",
+  "options": [
+   "Simple",
+   "Displaced",
+   "Comminuted",
+   "Compound"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "A compound fracture is a fracture that has broken through the skin.",
+  "why": [
+   "A simple fracture is a fracture that has not broken through the skin.",
+   "A displaced fracture is fracture in which the ends of the bone are no longer in alignment with one another.",
+   "A comminuted fracture is a fracture that results in multiple bone fragments.",
+   "A compound fracture is a fracture that has broken through the skin."
+  ],
+  "topic": "Emergencies & triage",
+  "exam": 5,
+  "id": "5-84",
+  "group": "G589"
+ },
+ {
+  "n": 85,
+  "page": 84,
+  "q": "A medical assistant should identify that which of the following designates a specific person who is authorized to make medical decisions for a patient?",
+  "options": [
+   "Durable power of attorney",
+   "Organ donation status",
+   "Living will",
+   "Do-not-resuscitate (DNR) order"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "A durable power of attorney designates a person that is authorized to make medical decisions for a patient in the event that the patient is unable to make decisions for themselves.",
+  "why": [
+   "A durable power of attorney designates a person that is authorized to make medical decisions for a patient in the event that the patient is unable to make decisions for themselves.",
+   "Organ donation status describes a patient's wishes regarding the donation of their organs in the event of their death.",
+   "A living will indicates a patient's wishes regarding life-prolonging medical interventions.",
+   "A DNR describes a patient's wishes regarding the medical actions to be taken to restore a heartbeat, as well as life-sustaining treatments."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-85",
+  "group": "G590"
+ },
+ {
+  "n": 86,
+  "page": 85,
+  "q": "A medical assistant is speaking with a patient who recently received a terminal diagnosis. The patient states, \"I regret not taking better care of myself. Now, I won't be able to accomplish what I wanted to do with my life.\" The assistant should identify that the patient is in which of the following stages of grief?",
+  "options": [
+   "Anger",
+   "Bargaining",
+   "Depression",
+   "Acceptance"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "This patient is in the depression stage of grief. This stage of grief is often characterized by patients expressing regret over unfulfilled goals or about not having taken better care of their health.",
+  "why": [
+   "The anger stage of grief is often characterized by expressions of anger in the form of a \"Why me?\" mindset. Patients might direct this anger toward family members and health care personnel.",
+   "The bargaining stage of grief is often characterized by attempting to postpone death by giving something up. One of the ways this can present itself is in the form of religious devotion or prayer.",
+   "This patient is in the depression stage of grief. This stage of grief is often characterized by patients expressing regret over unfulfilled goals or about not having taken better care of their health.",
+   "The acceptance stage of grief is often characterized by coming to terms with death. In this stage, patients are often better able to cope with arrangements and decisions related to death and dying."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-86",
+  "group": "G591"
+ },
+ {
+  "n": 87,
+  "page": 86,
+  "q": "The abbreviation NPO stands for which of the following?",
+  "options": [
+   "Twice per day",
+   "Nothing by mouth",
+   "Every hour",
+   "Before eating"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The abbreviation NPO, short for the Latin phrase “nil per os,\" stands for \"nothing by mouth.”",
+  "why": [
+   "The abbreviation for twice per day is bid.",
+   "The abbreviation NPO, short for the Latin phrase “nil per os,\" stands for \"nothing by mouth.”",
+   "The abbreviation for every hour is gh.",
+   "The abbreviation for before eating is ac."
+  ],
+  "topic": "Abbreviations",
+  "exam": 5,
+  "id": "5-87",
+  "group": "G592"
+ },
+ {
+  "n": 88,
+  "page": 87,
+  "q": "Which of the following items is an example of durable medical equipment (DME)?",
+  "options": [
+   "Autoclave",
+   "Otoscope",
+   "Syringe",
+   "Crutches"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Crutches are used to help with ambulation. Crutches, wheelchairs, and walkers are examples of DME.",
+  "why": [
+   "An autoclave is a device used for sterilization. It is not an example of DME.",
+   "An otoscope is an instrument used to examine the ear. It is not an example of DME.",
+   "A syringe is used to attach to needles and hold medications for injection administration. It is not an example of DME.",
+   "Crutches are used to help with ambulation. Crutches, wheelchairs, and walkers are examples of DME."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-88",
+  "group": "G593"
+ },
+ {
+  "n": 89,
+  "page": 88,
+  "q": "Which of the following stages of the communication cycle involves translating a message based on subjective perceptions or personal factors?",
+  "options": [
+   "Sender creating the message",
+   "Receiver decoding the message",
+   "Receiver creating feedback",
+   "Sender decoding feedback"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The receiver decoding the message involves translating the received message based on subjective perceptions or personal factors.",
+  "why": [
+   "The sender creating the message is the stage in which the sender communicates their message.",
+   "The receiver decoding the message involves translating the received message based on subjective perceptions or personal factors.",
+   "The receiver creating feedback is based on the completed review of the perceived message.",
+   "The sender decoding feedback involves the feedback being decoded for accuracy and to ensure the communication is accurate."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-89",
+  "group": "G594"
+ },
+ {
+  "n": 90,
+  "page": 89,
+  "q": "Which of the following tests is granted waived status under Clinical Laboratory Improvement Amendments (CLIA)?",
+  "options": [
+   "Rapid strep test",
+   "Urine microscopy analysis",
+   "Thyroid-stimulating hormone test",
+   "White blood cell differential"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The rapid strep test is granted waived status under CLIA.",
+  "why": [
+   "The rapid strep test is granted waived status under CLIA.",
+   "Urine microscopy analysis is categorized as provider performed microscopy and is not CLIA-waived.",
+   "Tests for thyroid-stimulating hormone levels are not CLIA-waived because they require a blood draw and must be analyzed by the laboratory.",
+   "Tests for white blood cell differentials are not CLIA-waived because they require a blood draw and must be analyzed by the laboratory."
+  ],
+  "topic": "Lab values & QC",
+  "exam": 5,
+  "id": "5-90",
+  "group": "G595"
+ },
+ {
+  "n": 91,
+  "page": 90,
+  "q": "When assisting a provider with a vaginal examination and Papanicolaou (Pap) test, a medical assistant should identify that which of the following instruments is necessary?",
+  "options": [
+   "Cryoprobe",
+   "Senn retractor",
+   "Adson forceps",
+   "Cytobrush"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "This instrument is necessary because a cytobrush is used for obtaining a specimen for a Pap test.",
+  "why": [
+   "A cryoprobe is used for procedures and treatments related to cryosurgery. This instrument would not be necessary for this examination.",
+   "A Senn retractor is used to retract small incisions and assist with suturing. This instrument would not be necessary for this examination.",
+   "Adson forceps are used to grasp tissue and assist with applying sutures. This instrument would not be necessary for this examination.",
+   "This instrument is necessary because a cytobrush is used for obtaining a specimen for a Pap test."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-91",
+  "group": "G596"
+ },
+ {
+  "n": 92,
+  "page": 91,
+  "q": "A medical assistant is preparing to perform a routine venipuncture. Prior to performing the venipuncture, which of the following information should the assistant obtain to verify the patient's identity?",
+  "options": [
+   "Patient's Social Security number",
+   "Patient's phone number",
+   "Patient's full name",
+   "Patient's place of birth"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should verify the patient's full name and date of birth prior to performing a routine venipuncture.",
+  "why": [
+   "The assistant should verify the patient's full name and date of birth prior to performing a routine venipuncture.",
+   "The assistant should verify the patient's full name and date of birth prior to performing a routine venipuncture.",
+   "The assistant should verify the patient's full name and date of birth prior to performing a routine venipuncture.",
+   "The assistant should verify the patient's full name and date of birth prior to performing a routine venipuncture."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-92",
+  "group": "G597"
+ },
+ {
+  "n": 93,
+  "page": 92,
+  "q": "A medical assistant is performing a patient intake. The patient states, “I eat once a day and exercise four times a day, but I still feel overweight.\" The assistant should identify that this statement by the patient describes which of the following conditions?",
+  "options": [
+   "Binge-eating disorder",
+   "Bulimia nervosa",
+   "Anemia",
+   "Anorexia nervosa"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Anorexia nervosa is an eating disorder that is characterized by body dysmorphia, limited food intake, and excessive exercise.",
+  "why": [
+   "Binge-eating disorder is characterized by a patient eating unusually large amounts of food in short periods of time.",
+   "Bulimia nervosa is an eating disorder that is characterized by overeating, which then leads to purging.",
+   "Anemia is a blood disorder that occurs when blood does not have enough healthy red blood cells or hemoglobin.",
+   "Anorexia nervosa is an eating disorder that is characterized by body dysmorphia, limited food intake, and excessive exercise."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-93",
+  "group": "G598"
+ },
+ {
+  "n": 94,
+  "page": 93,
+  "q": "According to the CDC, which of the following is the correct order for donning personal protective equipment (PPE)?",
+  "options": [
+   "Gloves, gown, goggles, mask",
+   "Gown, mask, goggles, gloves",
+   "Mask, goggles, gown, gloves",
+   "Goggles, mask, gloves, gown"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "According to the CDC, the correct order for donning PPE is gown, mask, goggles, gloves.",
+  "why": [
+   "According to the CDC, the correct order for donning PPE is gown, mask, goggles, gloves.",
+   "According to the CDC, the correct order for donning PPE is gown, mask, goggles, gloves.",
+   "According to the CDC, the correct order for donning PPE is gown, mask, goggles, gloves.",
+   "According to the CDC, the correct order for donning PPE is gown, mask, goggles, gloves."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-94",
+  "group": "G599"
+ },
+ {
+  "n": 95,
+  "page": 94,
+  "q": "A medical assistant notices that the medical office is not providing personal protective equipment (PPE) for staff. Which of the following regulatory agencies should the assistant contact?",
+  "options": [
+   "OSHA",
+   "CLIA",
+   "The Joint Commission (TJC)",
+   "Department of Health and Human Services"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "OSHA regulates workplace safety. The assistant should contact OSHA to report a violation regarding PPE.",
+  "why": [
+   "OSHA regulates workplace safety. The assistant should contact OSHA to report a violation regarding PPE.",
+   "CLIA regulates laboratory testing and quality control, not workplace safety.",
+   "TJC oversees quality within medical facilities, not workplace safety.",
+   "The Department of Health and Human Services does not regulate workplace safety."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-95",
+  "group": "G600"
+ },
+ {
+  "n": 96,
+  "page": 95,
+  "q": "A medical assistant is reinforcing teaching with a patient about obtaining a stool sample. Which of the following information should the assistant include?",
+  "options": [
+   "A sample can be obtained from an infant's diaper.",
+   "Avoid retrieving a sample from toilet water.",
+   "A sample must be plated within 12 hr.",
+   "A laxative should be used prior to providing a stool sample."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Toilet water can contaminate a sample. Therefore, the assistant should include this information.",
+  "why": [
+   "The sample could be contaminated by the diaper. Therefore, the assistant should not include this information.",
+   "Toilet water can contaminate a sample. Therefore, the assistant should include this information.",
+   "A sample must be plated within 72 hr.",
+   "Laxatives can return false results. Therefore, patients should not use a laxative prior to providing a stool sample."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-96",
+  "group": "G601"
+ },
+ {
+  "n": 97,
+  "page": 96,
+  "q": "A medical assistant is obtaining a blood sample from an infant. Which of the following methods should the assistant use to obtain the sample?",
+  "options": [
+   "Evacuated tube method",
+   "Butterfly assembly",
+   "Syringe needle",
+   "Capillary puncture"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should use the capillary puncture method to obtain a blood sample from an infant. Capillary punctures are performed as a heel stick on an infant to obtain a blood sample.",
+  "why": [
+   "The evacuated tube method is the most commonly used method for obtaining blood samples and is used for patients who have average veins.",
+   "The butterfly assembly method is used to obtain blood samples from patients who have small veins, older adult patients, young children, or patients who have veins that are difficult to draw.",
+   "The syringe needle method is used to obtain blood samples from patients who have small veins or have veins that are difficult to draw.",
+   "The assistant should use the capillary puncture method to obtain a blood sample from an infant. Capillary punctures are performed as a heel stick on an infant to obtain a blood sample."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-97",
+  "group": "G602"
+ },
+ {
+  "n": 98,
+  "page": 97,
+  "q": "Which of the following sections of the health history contains the patient's identifiers, such as the patient's full name and date of birth?",
+  "options": [
+   "Personal data",
+   "Review of systems",
+   "Chief compliant",
+   "Past medical history"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The personal data section is typically the first section of the health history form. It includes the patient's name, date of birth, and address.",
+  "why": [
+   "The personal data section is typically the first section of the health history form. It includes the patient's name, date of birth, and address.",
+   "The review of systems section includes information about each body system.",
+   "The chief complaint section includes the reason for the patient's visit.",
+   "The past medical history section includes any past medical issues or health problems, such as major illness or surgery."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-98",
+  "group": "G603"
+ },
+ {
+  "n": 99,
+  "page": 98,
+  "q": "A medical assistant is administering eye ointment to a patient. Which of the following actions should the assistant take?",
+  "options": [
+   "Hold the ointment tube parallel to and above the patient's eye.",
+   "Apply a thin ribbon of ointment along the conjunctival sac.",
+   "Apply the ointment from the outer canthus to the inner canthus.",
+   "Have the patient keep their eye open after application."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Ointment should be applied along the conjunctival sac from the inner canthus to the outer canthus.",
+  "why": [
+   "Eyedrops are applied parallel to and above the eye. Ointment should not be applied from above the eye.",
+   "Ointment should be applied along the conjunctival sac from the inner canthus to the outer canthus.",
+   "Ointment should be applied from the inner canthus to the outer canthus.",
+   "The assistant should instruct the patient to close their eye and roll their eyeball for even distribution of the ointment."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-99",
+  "group": "G604"
+ },
+ {
+  "n": 100,
+  "page": 99,
+  "q": "When coding with the ICD-10-CM, where should the medical assistant begin the process of looking up a diagnosis code for breast cancer?",
+  "options": [
+   "The Tabular List",
+   "The Alphabetic Index",
+   "Chapters",
+   "Subchapters"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The ICD-10-CM contains the Alphabetic Index of diseases, conditions, and related terms. Therefore, the assistant should begin the process of looking up a diagnosis code for breast cancer in the Alphabetic Index.",
+  "why": [
+   "The Tabular List of the ICD-10-CM is divided into 21 chapters that specify groups of diseases and injuries or body parts and organ systems.",
+   "The ICD-10-CM contains the Alphabetic Index of diseases, conditions, and related terms. Therefore, the assistant should begin the process of looking up a diagnosis code for breast cancer in the Alphabetic Index.",
+   "There are 21 chapters under the Tabular List. Chapters are grouped by diseases and injuries or body parts and organ systems.",
+   "Subchapters have a designated three-character code and form the foundation of the ICD-10-CM code set."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-100",
+  "group": "G605"
+ },
+ {
+  "n": 101,
+  "page": 100,
+  "q": "At which of the following times should a medical assistant schedule a return appointment for an established patient?",
+  "options": [
+   "Prior to the patient being seen for their current appointment",
+   "Before the patient leaves the office following their current appointment",
+   "2 weeks following their current appointment",
+   "1 month following their current appointment"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should schedule a return appointment for an established patient before the patient leaves the office following their current appointment.",
+  "why": [
+   "The assistant should not schedule a return appointment prior to the patient being seen for their current appointment.",
+   "The assistant should schedule a return appointment for an established patient before the patient leaves the office following their current appointment.",
+   "The assistant should not wait 2 weeks to schedule the appointment.",
+   "The assistant should not wait 1 month to schedule the appointment."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-101",
+  "group": "G606"
+ },
+ {
+  "n": 102,
+  "page": 101,
+  "q": "Which of the following is a step in the skin preparation process prior to a surgical procedure?",
+  "options": [
+   "Sterilize the surgical site.",
+   "Clean the surgical site with antiseptic.",
+   "Rinse the surgical site with warm water.",
+   "Scrub the surgical site with a sterile brush."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Cleaning the surgical site with antiseptic is a step in the skin preparation process prior to a surgical procedure. The site should be cleaned with antiseptic to decrease the number of micro-organisms on the skin and reduce the risk of wound contamination.",
+  "why": [
+   "Sterilization of the skin is not possible without damage to cells and tissue at the surgical site. Therefore, it is not a part of skin preparation prior to a surgical procedure.",
+   "Cleaning the surgical site with antiseptic is a step in the skin preparation process prior to a surgical procedure. The site should be cleaned with antiseptic to decrease the number of micro-organisms on the skin and reduce the risk of wound contamination.",
+   "The surgical site should not be rinsed with warm water. Instead, the site should be rinsed with a 0.9% sodium chloride irrigation.",
+   "Scrubbing with a sterile brush is a step in the surgical hand scrub process, not a step in the skin preparation process."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-102",
+  "group": "G607"
+ },
+ {
+  "n": 103,
+  "page": 102,
+  "q": "According to the CDC, which of the following immunizations is recommended to be administered every 10 years?",
+  "options": [
+   "Zoster (Zostavax)",
+   "Influenza",
+   "Tetanus and diphtheria",
+   "Pneumococcal conjugate (PCV13)"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The CDC recommends a tetanus and diphtheria vaccine every 10 years.",
+  "why": [
+   "The CDC recommends a zoster vaccine once in a lifetime for adults over age 60.",
+   "The CDC recommends adults receive the influenza vaccine once every year.",
+   "The CDC recommends a tetanus and diphtheria vaccine every 10 years.",
+   "The CDC recommends a PCV13 vaccine once in a lifetime for adults over age 65."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-103",
+  "group": "G608"
+ },
+ {
+  "n": 104,
+  "page": 103,
+  "q": "A medical assistant is documenting in a patient's medical record. Which of the following should the assistant use to notate a patient's statement in their own words?",
+  "options": [
+   "Parentheses",
+   "Quotation marks",
+   "Brackets",
+   "Ellipses"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should use quotation marks when documenting a patient's statement in their own words.",
+  "why": [
+   "The assistant should not use parentheses when documenting a patient's statement in their own words.",
+   "The assistant should use quotation marks when documenting a patient's statement in their own words.",
+   "The assistant should not use brackets when documenting a patient's statement in their own words.",
+   "The assistant should not use ellipses when documenting a patient's statement in their own words."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-104",
+  "group": "G609"
+ },
+ {
+  "n": 105,
+  "page": 104,
+  "q": "Which of the following is the proper time period for the collection of a newborn screening card?",
+  "options": [
+   "Within 48 to 72 hr after birth",
+   "Within 24 to 48 hr after birth",
+   "8 to 14 days after birth",
+   "15 to 28 days after birth"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The proper time period for the collection of a newborn screening card is within 24 to 48 hr after birth.",
+  "why": [
+   "The proper time period for the collection of a newborn screening card is within 24 to 48 hr after birth.",
+   "The proper time period for the collection of a newborn screening card is within 24 to 48 hr after birth.",
+   "The proper time period for the collection of a newborn screening card is within 24 to 46 hr after birth.",
+   "The proper time period for the collection of a newborn screening card is within 24 to 48 hr after birth."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-105",
+  "group": "G610"
+ },
+ {
+  "n": 106,
+  "page": 105,
+  "q": "A medical assistant is caring for a patient who has pernicious anemia. The assistant should identify that the patient has a deficiency in which of the following vitamins?",
+  "options": [
+   "Vitamin B1",
+   "Vitamin B6",
+   "Vitamin B12",
+   "Vitamin B3"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "A vitamin B12 deficiency results in pernicious anemia and a state of confusion.",
+  "why": [
+   "A vitamin B1 deficiency results in heart failure and nervous disorders.",
+   "A vitamin B6 deficiency results in cracks around the mouth, a rash, and depression.",
+   "A vitamin B12 deficiency results in pernicious anemia and a state of confusion.",
+   "A vitamin B3 deficiency results in digestive issues."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-106",
+  "group": "G611"
+ },
+ {
+  "n": 107,
+  "page": 106,
+  "q": "Another provider requests the records of an established patient in the provider's office. Which of the following individuals has the right to release this information?",
+  "options": [
+   "The patient's current provider",
+   "The patient's attorney",
+   "The patient",
+   "The patient's third-party payer"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The patient has the right to release this information to the new provider and must sign a release for medical records to be sent to a different provider.",
+  "why": [
+   "The current provider does not have the right to forward patient records without patient consent.",
+   "The patient's attorney does not have the right to forward patient records without patient consent.",
+   "The patient has the right to release this information to the new provider and must sign a release for medical records to be sent to a different provider.",
+   "The patient's third-party payer does not have the right to forward patient records without patient consent."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-107",
+  "group": "G612"
+ },
+ {
+  "n": 108,
+  "page": 107,
+  "q": "A medical assistant is walking a patient back to the examination room following a laboratory test. The patient asks about the results of the test. Which of the following actions should the assistant take?",
+  "options": [
+   "Inform the patient that the provider will review the results with them in the examination room.",
+   "Continue escorting the patient to the examination room while discussing their results quietly.",
+   "Stop the provider in the hallway and have the patient ask about their test results.",
+   "Have the patient take a seat in an open area and inform them of the results of the test."
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "It is the responsibility of the provider to discuss the results of a patient's laboratory test. Medical assistants may only disclose abnormal test results when authorized by a provider. Patient information, including test results, should De discussed in a private setting.",
+  "why": [
+   "It is the responsibility of the provider to discuss the results of a patient's laboratory test. Medical assistants may only disclose abnormal test results when authorized by a provider. Patient information, including test results, should De discussed in a private setting.",
+   "It is the responsibility of the provider to discuss the results of a patient's test. Medical assistants may only disclose abnormal test results when authorized by a provider.",
+   "While it is the responsibility of the provider to discuss the results of a patient's test, the results should be discussed in a private setting, notin the hallway.",
+   "It is the responsibility of the provider to discuss the results of a patient's test. Medical assistants may only disclose abnormal test results when authorized by a provider. Patient information, including test results, should be discussed in a private setting."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-108",
+  "group": "G613"
+ },
+ {
+  "n": 109,
+  "page": 108,
+  "q": "A medical assistant is obtaining vital signs from a 6-year-old child. The assistant should identify that which of the following vital signs is outside the expected reference range for this patient and should be reported to the provider?",
+  "options": [
+   "Respiratory rate 22/min",
+   "Heart rate 140/min",
+   "Blood pressure 110/72 mm Hg",
+   "Temperature 37° C (98.6° F)"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "A heart rate of 140/min is outside the expected reference range for a 6-year-old child. A heart rate ranging from 75 to 120/min is the expected reference range for a 6-year-old child.",
+  "why": [
+   "A respiratory rate of 22/min is within the expected reference range for e 6-year-old child. A respiratory rate ranging from 18 to 26/min is the expected reference range for a 6-year-old child.",
+   "A heart rate of 140/min is outside the expected reference range for a 6-year-old child. A heart rate ranging from 75 to 120/min is the expected reference range for a 6-year-old child.",
+   "A blood pressure of 110/72 mm Hg is within the expected reference range for a 6-year-old child. The expected reference range for a 6-year-old child is a systolic measurement of 78 to 112 mm Hg and a diastolic measurement of 50 to 79 mm Hg.",
+   "A temperature of 37° C (98.6° F) is within the expected reference range for a 6-year-old child. The expected reference range for a 6-year-old child is from 36.1° to 37.8° C (97° to 100° F)."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-109",
+  "group": "G614"
+ },
+ {
+  "n": 110,
+  "page": 109,
+  "q": "A medical assistant is preparing a patient to transition care to an oncologist due to a recent cancer diagnosis. Which of the following is a personal factor that could potentially influence a patient's perception of their diagnosis?",
+  "options": [
+   "Age",
+   "Family",
+   "Peers",
+   "Social media"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Personal factors that can potentially influence a patient's perception of their diagnosis include gender, age, employment, and race.",
+  "why": [
+   "Personal factors that can potentially influence a patient's perception of their diagnosis include gender, age, employment, and race.",
+   "Social factors that can potentially influence a patient's perception of their diagnosis include family, personality, or peers.",
+   "Social factors that can potentially influence a patient's perception of their diagnosis include family, personality, or peers.",
+   "A patient is influenced by cues to action if they are influenced by social media, mass medié campaigns, or advice from other health care professionals."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-110",
+  "group": "G615"
+ },
+ {
+  "n": 111,
+  "page": 110,
+  "q": "What is the EKG gain of the tracing below?",
+  "options": [
+   "5 mm/mV",
+   "10 mm/mV",
+   "15 mm/mV",
+   "20 mm/mV"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The calibration box is 10 mm tall, indicating a standard gain of 10 mm/mV.",
+  "why": [
+   "The calibration box is 10 mm tall, indicating a standard gain of 10 mm/mV.",
+   "The calibration box is 10 mm tall, indicating a standard gain of 10 mm/mV.",
+   "This is not a number associated with a standard gain.",
+   "The calibration box is 10 mm tall, indicating a standard gain of 10 mm/mV."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "img": "data:image/jpeg;base64,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",
+  "imgAlt": "EKG strip with a calibration box at the start, followed by two heartbeats",
+  "exam": 5,
+  "id": "5-111",
+  "group": "G616"
+ },
+ {
+  "n": 112,
+  "page": 111,
+  "q": "Which of the following terms refers to muscle pain?",
+  "options": [
+   "Myopia",
+   "Myalgia",
+   "Myositis",
+   "Malaise"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Myalgia refers to muscle pain.",
+  "why": [
+   "Myopia refers to nearsightedness.",
+   "Myalgia refers to muscle pain.",
+   "Myositis refers to inflammation of the muscle.",
+   "Malaise refers to generalized discomfort and weakness."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-112",
+  "group": "G617"
+ },
+ {
+  "n": 113,
+  "page": 112,
+  "q": "A medical assistant is attempting to perform a routine venipuncture on an older adult patient and is having difficulty locating a palpable vein. Which of the following veins should the assistant use as a last resort?",
+  "options": [
+   "Medial veins",
+   "Basilic veins",
+   "Cephalic veins",
+   "Supplemental cephalic veins"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Basilic veins should be used as a last resort because these veins are close to the brachial artery and median nerves. These veins should only be used by experienced phlebotomists.",
+  "why": [
+   "Medial veins are commonly used for a routine venipuncture.",
+   "Basilic veins should be used as a last resort because these veins are close to the brachial artery and median nerves. These veins should only be used by experienced phlebotomists.",
+   "Cephalic veins are commonly used for a routine venipuncture.",
+   "Supplemental cephalic veins are commonly used for a routine venipuncture."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-113",
+  "group": "G618"
+ },
+ {
+  "n": 114,
+  "page": 113,
+  "q": "A medical assistant should identify that which of the following types of technology uses webcams and internet video chat to provide medical care and services?",
+  "options": [
+   "Virtual private networks",
+   "Speech and/or voice recognition",
+   "Encryption software",
+   "Telemedicine"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Telemedicine is a type of technology that uses webcams and internet video chat to provide remote diagnosis and treatment for patients.",
+  "why": [
+   "Virtual private networks are two or more computers’ systems linked together on a secure network.",
+   "Speech and/or voice recognition is used to comprehend and interpret spoken words though the use of a speciality software.",
+   "Encryption software allows personal information or other protected health information (PHI) to be encoded, so only the person with a key or password can view it.",
+   "Telemedicine is a type of technology that uses webcams and internet video chat to provide remote diagnosis and treatment for patients."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-114",
+  "group": "G619"
+ },
+ {
+  "n": 115,
+  "page": 114,
+  "q": "A medical assistant is measuring a patient's weight in pounds. Which of the following actions should the assistant take to convert the measurement into kilograms?",
+  "options": [
+   "Divide the weight by 2.2.",
+   "Add 2.2 to the weight.",
+   "Subtract 2.2 from the weight.",
+   "Multiply the weight by 2.2."
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "To convert a weight measurement in pounds to kilograms, take the weight in pounds and divide it by 2.2.",
+  "why": [
+   "To convert a weight measurement in pounds to kilograms, take the weight in pounds and divide it by 2.2.",
+   "To convert a weight measurement in pounds to kilograms, take the weight in pounds and divide it by 2.2.",
+   "To convert a weight measurement in pounds to kilograms, take the weight in pounds and divide it by 2.2.",
+   "To convert a weight measurement in pounds to kilograms, take the weight in pounds and divide it by 2.2."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-115",
+  "group": "G620"
+ },
+ {
+  "n": 116,
+  "page": 115,
+  "q": "Which of the following organelle structures serves as the site of cellular respiration and energy production?",
+  "options": [
+   "Nucleolus",
+   "Ribosomes",
+   "Nucleus",
+   "Mitochondrion"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "Mitochondrion serve as the site of cellular respiration and produce energy for the cell. They are considered the cell's power plant.",
+  "why": [
+   "A nucleolus is a small organelle inside of the nucleus that produces ribosomes.",
+   "Ribosomes are organelles that makes enzymes and proteins that contain ribonucleic acid.",
+   "The nucleus is the control center of the cell and contains chromosomes made of DNA.",
+   "Mitochondrion serve as the site of cellular respiration and produce energy for the cell. They are considered the cell's power plant."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-116",
+  "group": "G621"
+ },
+ {
+  "n": 117,
+  "page": 116,
+  "q": "Which of the following actions should a medical assistant take when communicating with a patient?",
+  "options": [
+   "Speak loudly.",
+   "Use a neutral tone.",
+   "Use slang.",
+   "Speak quickly."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should use a neutral tone when communicating with a patient.",
+  "why": [
+   "Speaking loudly can be interpreted as rude and might offend the patient.",
+   "The assistant should use a neutral tone when communicating with a patient.",
+   "Using slang can lead to inaccuracies with the message being delivered.",
+   "Speaking quickly can lead to inaccuracies with the message being delivered."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-117",
+  "group": "G622"
+ },
+ {
+  "n": 118,
+  "page": 117,
+  "q": "A medical assistant is preparing a patient who has psoriasis to be examined by the provider. When inspecting the patient's skin lesions, the assistant should expect to observe which of the following characteristics?",
+  "options": [
+   "Yellow, waxy",
+   "Gray, crusty",
+   "Silvery, scaly",
+   "Brown, fiat"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Psoriasis is a chronic skin disease characterized by patches of red skin and scales that have a silvery appearance.",
+  "why": [
+   "Psoriasis is a chronic skin disease characterized by patches of red skin and scales that have a silvery appearance.",
+   "Psoriasis is a chronic skin disease characterized by patches of red skin and scales that have a silvery appearance.",
+   "Psoriasis is a chronic skin disease characterized by patches of red skin and scales that have a silvery appearance.",
+   "Psoriasis is a chronic skin disease characterized by patches of red skin and scales that have a silvery appearance."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-118",
+  "group": "G623"
+ },
+ {
+  "n": 119,
+  "page": 118,
+  "q": "A medical assistant is preparing a preschooler for a physical. Which of the following therapeutic communication techniques should the assistant use when establishing rapport with the child?",
+  "options": [
+   "Stand above the child.",
+   "Speak quietly.",
+   "Maintain eye contact.",
+   "Offer treatment choices to the patient."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should maintain eye contact with the child. This demonstrates a kind gesture that builds rapport.",
+  "why": [
+   "The assistant should sit at eye level with the child when interacting.",
+   "The assistant should use a gentle but firm tone to gain the child's confidence and cooperation.",
+   "The assistant should maintain eye contact with the child. This demonstrates a kind gesture that builds rapport.",
+   "The assistant should avoid offering choices to the child when it pertains to treatment."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-119",
+  "group": "G624"
+ },
+ {
+  "n": 120,
+  "page": 119,
+  "q": "Which of the following areas of coaching involves the medical assistant instructing patients about procedure follow-up and home care?",
+  "options": [
+   "Disease prevention",
+   "Diagnostic tests",
+   "Treatment plans",
+   "Community resources"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Coaching on treatment plans involves the assistant instructing patients about procedure follow-up and home care.",
+  "why": [
+   "Coaching on disease prevention provides patients with instructions about how to prevent disease or the spread of disease.",
+   "Coaching on diagnostic tests involves instructing patients about preparation for testing.",
+   "Coaching on treatment plans involves the assistant instructing patients about procedure follow-up and home care.",
+   "Coaching on community resources involves providing patients with resources that address their needs, such as meals or transportation."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-120",
+  "group": "G625"
+ },
+ {
+  "n": 121,
+  "page": 120,
+  "q": "During a routine venipuncture, the patient becomes pale and diaphoretic. The medical assistant should identify that the patient is experiencing which of the following?",
+  "options": [
+   "Syncope",
+   "Seizure",
+   "Nausea",
+   "Shock"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify these manifestations as the onset of syncope and should take the necessary precautions in case the patient faints.",
+  "why": [
+   "The assistant should identify these manifestations as the onset of syncope and should take the necessary precautions in case the patient faints.",
+   "A patient will usually exhibit involuntary movement during a seizure.",
+   "The patient might report feeling lightheaded or queasy when nauseous.",
+   "The patient will appear cold and will have pale, sweaty, or moist skin if experiencing shock."
+  ],
+  "topic": "Emergencies & triage",
+  "exam": 5,
+  "id": "5-121",
+  "group": "G626"
+ },
+ {
+  "n": 122,
+  "page": 121,
+  "q": "Which of the following ensures health care professionals uphold and respect a patient's choice regarding their medical care?",
+  "options": [
+   "Affordable Care Act (ACA)",
+   "Good Samaritan Laws",
+   "Patient's Bill of Rights",
+   "Civil Rights Act"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The Patient's Bill of Rights ensures health care professionals uphold and respect a patient's choice regarding their medical care.",
+  "why": [
+   "The ACA implemented measures to lower health care costs and increase quality and availability of private and public health insurance.",
+   "Good Samaritan Laws provides legal protection for individuals assisting with an injured person in the event of an emergency.",
+   "The Patient's Bill of Rights ensures health care professionals uphold and respect a patient's choice regarding their medical care.",
+   "The Civil Rights Act protects employees against employment discrimination."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-122",
+  "group": "G627"
+ },
+ {
+  "n": 123,
+  "page": 122,
+  "q": "Which of the following procedures should a medical assistant schedule for a patient who requires a kidney stone to be removed?",
+  "options": [
+   "Dialysis",
+   "Blood transfusion",
+   "Nephrolithotomy",
+   "Urostomy"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Nephrolithotomy is a procedure that is used to remove kidney stones.",
+  "why": [
+   "Dialysis is a procedure used to treat kidney failure.",
+   "A blood transfusion is used to treat blood loss, anemia, and polycystic kidney disease.",
+   "Nephrolithotomy is a procedure that is used to remove kidney stones.",
+   "An urostomy is a procedure used to treat a neurogenic bladder."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-123",
+  "group": "G628"
+ },
+ {
+  "n": 124,
+  "page": 123,
+  "q": "A provider asks a medical assistant to give a patient a sample of Prilosec. The assistant should identify that which of the following medications is an example of a look-alike/sound-alike medication for Prilosec?",
+  "options": [
+   "Promethazine",
+   "Prozac",
+   "Rosuvastatin",
+   "Roxicet"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Prozac is a look-alike/sound-alike medication for Prilosec.",
+  "why": [
+   "Promethazine is an antihistamine and is not commonly confused with Prilosec.",
+   "Prozac is a look-alike/sound-alike medication for Prilosec.",
+   "Rosuvastatin is a cholesterol-lowering medication and is not commonly confused with Prilosec.",
+   "Roxicet is en analgesic and is not commonly confused with Prilosec."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-124",
+  "group": "G629"
+ },
+ {
+  "n": 125,
+  "page": 124,
+  "q": "A medical assistant is preparing for a patient's upcoming virtual visit. Which of the following actions should the assistant take?",
+  "options": [
+   "Schedule the patient a visit with the hospitalist.",
+   "Ensure the appropriate release forms are completed by the patient prior to the visit.",
+   "Ensure the provider has all required equipment in the medical bag for the visit.",
+   "Tell the patient to arrive to the office 15 min before their scheduled appointment time."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should ensure the appropriate release forms are completed by the patient prior to the visit.",
+  "why": [
+   "The assistant should only schedule a visit with a hospitalist if the patient is in a hospital and the provider doesn't have privileges to that hospital.",
+   "The assistant should ensure the appropriate release forms are completed by the patient prior to the visit.",
+   "Providers typically take medical bags for home visits and hospital visits, but do not use them for virtual visits.",
+   "The medical assistant should only tell the patient to arrive to the office early when doing a traditional office visit. The patient does not have to come to the office to do a virtual visit."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-125",
+  "group": "G630"
+ },
+ {
+  "n": 126,
+  "page": 125,
+  "q": "A medical assistant is removing staples from a wound. Which of the following actions should the assistant take?",
+  "options": [
+   "Gently place the jaw of the staple remover on the top of the staple.",
+   "Carefully tilt the staple remover downward until the staple lifts out.",
+   "Gently place the jaw of the staple remover under the staple.",
+   "Dispose of staples in the waste basket."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The assistant should gently place the jaw of the staple remover under the staple. This technique will lift the staples out of the wound smoothly without causing further discomfort to the patient.",
+  "why": [
+   "The assistant should avoid placing the jaw of the staple remover on the top of the staple because this will cause the staple to be pushed further into the wound.",
+   "The assistant should carefully tilt the staple remover upward until the staple lifts out.",
+   "The assistant should gently place the jaw of the staple remover under the staple. This technique will lift the staples out of the wound smoothly without causing further discomfort to the patient.",
+   "Staples should be disposed of in the biohazard sharps container."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-126",
+  "group": "G631"
+ },
+ {
+  "n": 127,
+  "page": 126,
+  "q": "A medical assistant provides a family member confidential information about a patient without checking the release of information form. Which of the following acts does this action violate?",
+  "options": [
+   "Health insurance Portability and Accountability Act (HIPAA)",
+   "Affordable Care Act (ACA)",
+   "Health Information Technology for Economic and Clinical Health Act (HITECH)",
+   "Controlled Substance Act (CSA)"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "This action violates HIPAA. HIPAA sets a standard for patient date protection.",
+  "why": [
+   "This action violates HIPAA. HIPAA sets a standard for patient date protection.",
+   "The ACA implemented measures to lower health care costs and increase quality and availability of private and public health insurance.",
+   "The HITECH act set security and privacy goals by extending the rules laid down by the pre-existing HIPAA law to more and different kinds of businesses, and by adding tougher reporting and enforcement provisions.",
+   "The CSA is a statute establishing federal U.S. drug policy under which the manufacture, importation, possession, use, and distribution of certain substances is regulated."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-127",
+  "group": "G632"
+ },
+ {
+  "n": 128,
+  "page": 127,
+  "q": "A medical assistant is attempting to resolve a patient complaint. The assistant should identify that which of the following describes the defense mechanism of reaction formation?",
+  "options": [
+   "The patient rejects the information completely.",
+   "The patient expresses the opposite of what they actually feel.",
+   "The patient is consciously aware of their feelings but refuses to admit it.",
+   "The patient reverts to expressively immature behavior."
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The assistant should identify this as the defense mechanism of reaction formation.",
+  "why": [
+   "The assistant should identify this as the defense mechanism of denial.",
+   "The assistant should identify this as the defense mechanism of reaction formation.",
+   "The assistant should identify this as the defense mechanism of suppression.",
+   "The assistant should identify this as the defense mechanism of regression."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-128",
+  "group": "G633"
+ },
+ {
+  "n": 129,
+  "page": 128,
+  "q": "A medical assistant has scheduled four appointments in the first half of the 1400 time slot, but blocked the last half of the 1400 time slot. Which of the following types of appointment scheduling does this represent?",
+  "options": [
+   "Double booking",
+   "Open office hours",
+   "Time-specified",
+   "Modified wave"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "This represents modified wave scheduling. Modified wave scheduling allows scheduling of four appointments in the first half of the hour and blocking the schedule for the last half hour.",
+  "why": [
+   "Double-booking scheduling allows appointments to be set for two or more patients at the same time.",
+   "Open office hours scheduling allows the patients to arrive whenever they like with no appointment required.",
+   "Time-specified scheduling allows a steady stream of patients all day long at regular, specified intervals.",
+   "This represents modified wave scheduling. Modified wave scheduling allows scheduling of four appointments in the first half of the hour and blocking the schedule for the last half hour."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-129",
+  "group": "G634"
+ },
+ {
+  "n": 130,
+  "page": 129,
+  "q": "Which of the following procedures requires verbal consent?",
+  "options": [
+   "Biopsy",
+   "Colonoscopy",
+   "Stress test",
+   "Venipuncture"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "A venipuncture requires verbal consent.",
+  "why": [
+   "A biopsy requires written and informed consent.",
+   "A colonoscopy requires written and informed consent.",
+   "A stress test requires written and informed consent.",
+   "A venipuncture requires verbal consent."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-130",
+  "group": "G635"
+ },
+ {
+  "n": 131,
+  "page": 130,
+  "q": "Which of the following EKG artifacts is caused by a disconnected electrode and results in the tracing going into the margins of the paper?",
+  "options": [
+   "Wandering baseline",
+   "AC interference",
+   "Interrupted baseline",
+   "Somatic tremor"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Interrupted baseline is caused by an electrical disconnection or a detached electrode and results in the tracing moving into the margins of the paper.",
+  "why": [
+   "Wandering baseline is caused by poorly attached electrodes or patient movement and results in a gradual shift of the tracing away from the center of the paper.",
+   "AC interference is caused by electrical currents from nearby wiring or equipment and results in a series of even, small spikes in the tracing.",
+   "Interrupted baseline is caused by an electrical disconnection or a detached electrode and results in the tracing moving into the margins of the paper.",
+   "Somatic tremor is caused by muscle movement and results in irregular, jagged peaks with a shifting baseline in the tracing."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-131",
+  "group": "G636"
+ },
+ {
+  "n": 132,
+  "page": 131,
+  "q": "A medical assistant is checking a requisition prior to collecting blood from a patient. Which of the following information should the assistant obtain from the patient prior to the procedure?",
+  "options": [
+   "Date of birth",
+   "Social Security number",
+   "Diagnosis",
+   "Address"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should have the patient spell their first and last name and provide their date of birth to ensure the information given matches the information on the requisition.",
+  "why": [
+   "The assistant should have the patient spell their first and last name and provide their date of birth to ensure the information given matches the information on the requisition.",
+   "The patient does not need to provide their Social Security number.",
+   "The patient does not need to provide their diagnosis.",
+   "The patient does not need to provide their address."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-132",
+  "group": "G637"
+ },
+ {
+  "n": 133,
+  "page": 132,
+  "q": "A medical assistant is reviewing the laboratory results of a patient who has the Epstein-Barr virus. The assistant should identify that this micro- organism can cause which of the following conditions?",
+  "options": [
+   "Polio",
+   "Mononucleosis",
+   "Gastroenteritis",
+   "Fifth disease"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Mononucleosis is a contagious disease that is caused by the Epstein-Barr virus.",
+  "why": [
+   "Polio is caused by the poliovirus.",
+   "Mononucleosis is a contagious disease that is caused by the Epstein-Barr virus.",
+   "Gastroenteritis is an inflammation of the small intestine and stomach that is caused by é virus, bacteria, or parasite.",
+   "Fifth disease presents as a mild rash that is caused by parvovirus B19."
+  ],
+  "topic": "Lab values & QC",
+  "exam": 5,
+  "id": "5-133",
+  "group": "G638"
+ },
+ {
+  "n": 134,
+  "page": 133,
+  "q": "A medical assistant is preparing a patient for an EKG. The assistant should wipe the area where the electrodes will be placed on the patient with which of the following substances to remove any sweat or lotion?",
+  "options": [
+   "Alcohol",
+   "Betadine",
+   "Hydrogen peroxide",
+   "Witch hazel"
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The assistant should wipe the area where the electrodes will be placed with alcohol to remove any sweat or lotion prior to performing an EKG.",
+  "why": [
+   "The assistant should wipe the area where the electrodes will be placed with alcohol to remove any sweat or lotion prior to performing an EKG.",
+   "The assistant should not wipe the area with betadine.",
+   "The assistant should not wipe the area with hydrogen peroxide.",
+   "The assistant should not wipe the area with witch hazel."
+  ],
+  "topic": "EKG & diagnostic tests",
+  "exam": 5,
+  "id": "5-134",
+  "group": "G639"
+ },
+ {
+  "n": 135,
+  "page": 134,
+  "q": "Which of the following must be entered into the electronic health record (EHR) by a provider using computerized physician order entry (CPOE)?",
+  "options": [
+   "Medical laboratory test orders",
+   "Diagnostic test orders",
+   "Hospital orders",
+   "Medications"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Hospital orders must be entered using CPOE by a provider.",
+  "why": [
+   "Medical laboratory test orders can be entered by the medical assistant into CPOE under the supervision of a provider.",
+   "Diagnostic test orders can be entered by the medical assistant into CPOE under the supervision of a provider.",
+   "Hospital orders must be entered using CPOE by a provider.",
+   "Medications can be entered by the medical assistant into CPOE under the supervision of a provider."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-135",
+  "group": "G640"
+ },
+ {
+  "n": 136,
+  "page": 135,
+  "q": "A medical assistant is preparing a community resource library. Which of the following actions should the assistant take first?",
+  "options": [
+   "Collect feedback from patients about their experiences with the resources.",
+   "Update the community resource information.",
+   "Compile a list of local community agencies.",
+   "Make a spreadsheet that has the contact information of services."
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The first step the assistant should take is to research, identify, and compile a list of available local community resources and services.",
+  "why": [
+   "While collecting feedback from patients about their experiences with local community resources is necessary, this is not the first step the assistant should take.",
+   "While it is necessary to keep the community resource information current, this is not the first step the assistant should take.",
+   "The first step the assistant should take is to research, identify, and compile a list of available local community resources and services.",
+   "While making a spreadsheet that lists contact information for local community resources and services is necessary, this is not the first step the assistant should take."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-136",
+  "group": "G641"
+ },
+ {
+  "n": 137,
+  "page": 136,
+  "q": "When adhering to hand hygiene guidelines, which of the following techniques must the medical assistant follow if their hands are visibly soiled?",
+  "options": [
+   "Use medical aseptic hand washing.",
+   "Use an alcohol-based hand sanitizer.",
+   "Disinfect hands using hydrogen peroxide.",
+   "Sterilize hands using ultraviolet light."
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "The use of medical aseptic hand washing technique is required if the hands are visibly soiled.",
+  "why": [
+   "The use of medical aseptic hand washing technique is required if the hands are visibly soiled.",
+   "An alcohol-based hand sanitizer should be used if the hands are not visibly soiled.",
+   "The process of disinfection is used to clean items such as tables, countertops, equipment, and other tangible items, but should not be used directly on the skin.",
+   "The process of sterilization using ultraviolet light is essential for items such as surgical instruments but should not be used directly on the skin."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-137",
+  "group": "G642"
+ },
+ {
+  "n": 138,
+  "page": 137,
+  "q": "Which of the following test samples are collected as evidence in legal proceedings and require special procedures to prevent tampering?",
+  "options": [
+   "Hemoglobin and hematocrit",
+   "Thyroid stimulating hormone (TSH) and thyroxine (T4)",
+   "Drug and alcohol",
+   "BUN and creatinine"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Drug and alcohol samples are collected as evidence in legal proceedings and require special procedures to prevent tampering.",
+  "why": [
+   "Hemoglobin and hematocrit samples are not collected as evidence in legal proceedings.",
+   "TSH and T4 samples are not collected as evidence in legal proceedings.",
+   "Drug and alcohol samples are collected as evidence in legal proceedings and require special procedures to prevent tampering.",
+   "BUN and creatinine samples are not collected as evidence in legal proceedings."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-138",
+  "group": "G643"
+ },
+ {
+  "n": 139,
+  "page": 138,
+  "q": "When speaking with an older adult patient who has moderate hearing loss, which of the following actions should a medical assistant take to aid in communication with the patient?",
+  "options": [
+   "Use hand gestures.",
+   "Speak in a higher pitch.",
+   "Speak softly.",
+   "Overenunciate words."
+  ],
+  "answer": [
+   0
+  ],
+  "multi": false,
+  "explanation": "Using hand gestures when speaking can assist in the communication process with an older adult patient who has moderate hearing loss.",
+  "why": [
+   "Using hand gestures when speaking can assist in the communication process with an older adult patient who has moderate hearing loss.",
+   "Speaking in a lower pitch aids in communication with an older adult patient who has moderate hearing loss.",
+   "Speaking softly will not aid in communication with an older adult patient who has moderate hearing loss.",
+   "Overenunciating words will not aid in communication with an older adult patient who has moderate hearing loss."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-139",
+  "group": "G644"
+ },
+ {
+  "n": 140,
+  "page": 139,
+  "q": "At which of the following times of day will a patient's body temperature be at its lowest?",
+  "options": [
+   "In the late afternoon",
+   "Before bedtime",
+   "In the morning",
+   "At midday"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "A patient's body temperature is at its lowest in the morning and increases throughout the day, reaching its highest temperature in the late afternoon.",
+  "why": [
+   "A patient's body temperature is at its lowest in the morning and increases throughout the day, reaching its highest temperature in the late afternoon.",
+   "A patient's body temperature is at its lowest in the morning and increases throughout the day, reaching its highest temperature in the late afternoon.",
+   "A patient's body temperature is at its lowest in the morning and increases throughout the day, reaching its highest temperature in the late afternoon.",
+   "A patient's body temperature is at its lowest in the morning and increases throughout the day, reaching its highest temperature in the late afternoon."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-140",
+  "group": "G645"
+ },
+ {
+  "n": 141,
+  "page": 140,
+  "q": "While measuring a patient's pulse, the medical assistant should identify that which of the following patient factors can contribute to an erroneous pulse rate?",
+  "options": [
+   "Blood pressure",
+   "Weight",
+   "Movement",
+   "Hydration"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "The patient's movement can alter results in the pulse measurement because of possible change in heart rate. If the patient is moving during the pulse measurement, the assistant might receive an erroneous result.",
+  "why": [
+   "The patient's blood pressure will not cause an erroneous result in the pulse measurement collected by the assistant. Although blood pressure is directly related to heart rate, exercise and movement will directly affect the pulse measurement.",
+   "The patient's weight will not cause an erroneous result in the pulse measurement collected by the assistant. Although weight can affect heart rate overall, exercise and movement will directly affect the pulse measurement.",
+   "The patient's movement can alter results in the pulse measurement because of possible change in heart rate. If the patient is moving during the pulse measurement, the assistant might receive an erroneous result.",
+   "The patient's level of hydration will not cause an erroneous result in the pulse measurement collected by the assistant. Although hydration is directly related to heart rate, exercise and movement directly affect the pulse measurement."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-141",
+  "group": "G646"
+ },
+ {
+  "n": 142,
+  "page": 141,
+  "q": "A medical assistant is caring for an infant who weighs 15 kg. How many pounds does the infant weigh?",
+  "options": [
+   "12.8 lb",
+   "6.82 lb",
+   "33 lb",
+   "17 lb"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "To convert kilograms to pounds, multiply the number of kilograms by 2.2. 15 kg x 2.2 lb = 33 lb.",
+  "why": [
+   "To convert kilograms to pounds, multiply the number of kilograms by 2.2. 15 kg x 2.2 lb = 33 lb.",
+   "To convert kilograms to pounds, multiply the number of kilograms by 2.2. 15 kg x 2.2 lb = 33 lb.",
+   "To convert kilograms to pounds, multiply the number of kilograms by 2.2. 15 kg x 2.2 lb = 33 lb.",
+   "To convert kilograms to pounds, multiply the number of kilograms by 2.2. 15 kg x 2.2 lb = 33 lb."
+  ],
+  "topic": "Vital signs",
+  "exam": 5,
+  "id": "5-142",
+  "group": "G647"
+ },
+ {
+  "n": 143,
+  "page": 142,
+  "q": "A medical assistant is collecting multiple blood samples from a patient. Which of the following vacuum tubes should the assistant fill first?",
+  "options": [
+   "Light blue (sodium citrate)",
+   "Green (heparin)",
+   "Gray (sodium fluoride)",
+   "Yellow (blood culture)"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "To avoid the possibility of contamination with bacteria, the assistant should fill a yellow tube, which is used for blood cultures, first.",
+  "why": [
+   "Light blue tubes contain sodium citrate, which is used to prevent clotting. The assistant should fill a yellow tube, which is used for blood cultures, first.",
+   "Green tubes contain heparin, which is used to prevent clotting. The assistant should fill a yellow tube, which is used for blood cultures, first.",
+   "Gray tubes contain potassium oxalate and sodium fluoride, which inhibit glycolysis. The assistant should fill a yellow tube, which is used for blood cultures, first.",
+   "To avoid the possibility of contamination with bacteria, the assistant should fill a yellow tube, which is used for blood cultures, first."
+  ],
+  "topic": "Phlebotomy & specimens",
+  "exam": 5,
+  "id": "5-143",
+  "group": "G648"
+ },
+ {
+  "n": 144,
+  "page": 143,
+  "q": "Which of the following organs filters the blood and forms urine?",
+  "options": [
+   "Bladder",
+   "Gall bladder",
+   "Kidneys",
+   "Ureter"
+  ],
+  "answer": [
+   2
+  ],
+  "multi": false,
+  "explanation": "Kidneys are made up of nephrons that filter toxins from the blood to form urine.",
+  "why": [
+   "The bladder holds urine until it is excreted.",
+   "The gall bladder produces and stores bile, which is responsible for breaking down fat.",
+   "Kidneys are made up of nephrons that filter toxins from the blood to form urine.",
+   "The ureter transports urine away from the kidneys to the bladder."
+  ],
+  "topic": "Medical terminology",
+  "exam": 5,
+  "id": "5-144",
+  "group": "G649"
+ },
+ {
+  "n": 145,
+  "page": 144,
+  "q": "A provider asks a medical assistant to reinforce teaching with a patient about their new diagnosis. Which of the following actions should the assistant take?",
+  "options": [
+   "Outline the educational materials quickly with the patient.",
+   "Instruct the patient to ask any questions at the end of the teaching.",
+   "Include personal opinions along with the educational material.",
+   "Document the patient's response to the teaching."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should document the education session, including the materials covered, patient's response, plans for future sessions, and necessary community referrals.",
+  "why": [
+   "The assistant should maintain a steady pace while educating the patient.",
+   "The assistant should confirm understanding frequently while communicating with the patient by asking for feedback.",
+   "The assistant should recognize that their role as a patient educator includes keeping the educational information relevant to the patient's needs. The assistant should not provide personal opinions about the material.",
+   "The assistant should document the education session, including the materials covered, patient's response, plans for future sessions, and necessary community referrals."
+  ],
+  "topic": "Procedures & patient prep",
+  "exam": 5,
+  "id": "5-145",
+  "group": "G650"
+ },
+ {
+  "n": 146,
+  "page": 145,
+  "q": "A medical assistant is preparing to sanitize contaminated equipment. Which of the following pieces of equipment can a medical assistant sanitize and reuse without needing to disinfect or sterilize it?",
+  "options": [
+   "Nasal specula",
+   "Otoscope",
+   "Curettes",
+   "Suture removal instruments"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "Pieces of equipment that require only sanitization but not disinfection or sterilization include otoscopes, ophthalmoscopes, stethoscopes, penlights, and tuning forks.",
+  "why": [
+   "Nasal specula require disinfection after use.",
+   "Pieces of equipment that require only sanitization but not disinfection or sterilization include otoscopes, ophthalmoscopes, stethoscopes, penlights, and tuning forks.",
+   "Curettes require sterilization after use.",
+   "Surgical instruments are included in the list of pieces of equipment that require disinfection and sterilization following sanitization, including instruments the assistant uses for suture removal."
+  ],
+  "topic": "Infection control & safety",
+  "exam": 5,
+  "id": "5-146",
+  "group": "G651"
+ },
+ {
+  "n": 147,
+  "page": 146,
+  "q": "A medical assistant receives a call from a patient who is upset about a letter they received from their third-party payer denying a claim. Which of the following statements should the assistant make?",
+  "options": [
+   "\"That's not our fault. Your insurance company has several rules about what they cover and don't cover.”",
+   "“I don’t take care of those matters. You'll have to call our billing department.”",
+   "“That kind of thing eventually happens to everyone. if the balance isn’t that large, it's better to just pay it than try to fight with them.”",
+   "“Let's see if there is something we can do on our end. I'll ask our claims specialist to review the claim.\""
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "This response by the assistant provides effective customer service, seeks clarification, and validates the patient's concern. Effective communication is clear, direct, and respectful in nature. When communicating with patients, the assistant should attempt to provide any available assistance in responding to and resolving any concerns that patients might have.",
+  "why": [
+   "This response by the assistant is defensive and confrontational. When communicating with patients, the assistant should attempt to provide any available assistance in responding to and resolving any concerns that patients might have.",
+   "This response by the assistant is negative and dismissive of the patient's feelings and needs. When communicating with patients, the assistant should attempt to provide any available assistance in responding to and resolving any concerns that patients might have.",
+   "This response by the assistant provides false reassurance by suggesting that the patient's problem is common. It does not provide clear assistance to resolve the patient's current problem.",
+   "This response by the assistant provides effective customer service, seeks clarification, and validates the patient's concern. Effective communication is clear, direct, and respectful in nature. When communicating with patients, the assistant should attempt to provide any available assistance in responding to and resolving any concerns that patients might have."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-147",
+  "group": "G652"
+ },
+ {
+  "n": 148,
+  "page": 147,
+  "q": "A medical assistant asks a patient to complete a health questionnaire. In which of the following sections of the questionnaire should the patient include information about tobacco and alcohol use?",
+  "options": [
+   "Past medical history",
+   "Social history",
+   "Family history",
+   "Surgical history"
+  ],
+  "answer": [
+   1
+  ],
+  "multi": false,
+  "explanation": "The social history section includes personal and lifestyle habits, including tobacco and alcohol use.",
+  "why": [
+   "The past medical history section includes the patient's health problems, illnesses, and diagnoses.",
+   "The social history section includes personal and lifestyle habits, including tobacco and alcohol use.",
+   "The family history section includes information about the health status of the patient's immediate family members.",
+   "The surgical history section includes all the surgical procedures the patient has had."
+  ],
+  "topic": "Admin, legal & ethics",
+  "exam": 5,
+  "id": "5-148",
+  "group": "G653"
+ },
+ {
+  "n": 149,
+  "page": 148,
+  "q": "A provider asks a medical assistant to administer a nitroglycerin tablet to a patient who is experiencing chest pain. The assistant should identify that which of the following routes involves placing the medication under the patient's tongue for rapid absorption?",
+  "options": [
+   "Buccal",
+   "Oral",
+   "Rectal",
+   "Sublingual"
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The sublingual route involves placing the medication under the tongue.",
+  "why": [
+   "The buccal route involves placing the medication between the cheek and the gums.",
+   "The oral route involves taking the medication by mouth and swallowing.",
+   "The rectal route involves inserting the medication in the rectum.",
+   "The sublingual route involves placing the medication under the tongue."
+  ],
+  "topic": "Injections & meds",
+  "exam": 5,
+  "id": "5-149",
+  "group": "G654"
+ },
+ {
+  "n": 150,
+  "page": 149,
+  "q": "A medical assistant receives a phone call from a parent of a child who has possibly ingested a household cleaner. Which of the following actions should the assistant take?",
+  "options": [
+   "Tell the parent to call back after obtaining the child's vital signs.",
+   "Instruct the parent to administer syrup of ipecac to the child.",
+   "Direct the parent to manually induce vomiting.",
+   "Contact the local poison control center."
+  ],
+  "answer": [
+   3
+  ],
+  "multi": false,
+  "explanation": "The assistant should instruct the parent to remain on the phone and not leave the child unattended. Then, the assistant should cail the local poison control center and forward all directions on to the parent.",
+  "why": [
+   "The assistant should instruct the parent to remain on the phone to receive further information and instructions. It is not appropriate or safe to instruct the parent to call back after obtaining the child’s vital signs.",
+   "The assistant should not instruct the parent to administer syrup of ipecac unless prescribed by a provider or the poison control center. The assistant should instruct the parent to remain on the phone to receive further information and instructions.",
+   "The assistant should not instruct the parent to manually induce vomiting unless directed by the provider or the poison control center. The assistant should instruct the parent to remain on the phone to receive further information and instructions.",
+   "The assistant should instruct the parent to remain on the phone and not leave the child unattended. Then, the assistant should cail the local poison control center and forward all directions on to the parent."
+  ],
+  "topic": "Emergencies & triage",
+  "exam": 5,
+  "id": "5-150",
+  "group": "G655"
  }
 ]

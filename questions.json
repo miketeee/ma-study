@@ -1635,7 +1635,8 @@
   "topic": "3D · Point of Care Testing & Lab",
   "exam": 1,
   "id": "1-82",
-  "group": "G081"
+  "group": "G081",
+  "note": "Exams disagree on the upper limit: Exam 1 Q82 gives 150,000–400,000/µL; Exams 2 and 4 give 150,000–450,000/µL."
  },
  {
   "n": 83,
@@ -3710,7 +3711,7 @@
   "topic": "3D · Point of Care Testing & Lab",
   "exam": 2,
   "id": "2-35",
-  "group": "G178"
+  "group": "G064"
  },
  {
   "n": 36,
@@ -3890,8 +3891,8 @@
   "topic": "3D · Point of Care Testing & Lab",
   "exam": 2,
   "id": "2-44",
-  "group": "G185",
-  "note": "Exam 2 gives 150,000–450,000/µL; Exam 1 Q82 gives 150,000–400,000/µL."
+  "group": "G081",
+  "note": "Exams disagree on the upper limit: Exam 1 Q82 gives 150,000–400,000/µL; Exams 2 and 4 give 150,000–450,000/µL."
  },
  {
   "n": 45,
@@ -4411,7 +4412,7 @@
   "topic": "3A · Patient Intake & Vitals",
   "exam": 2,
   "id": "2-70",
-  "group": "G205"
+  "group": "G088"
  },
  {
   "n": 71,
@@ -4491,7 +4492,7 @@
   "topic": "3D · Point of Care Testing & Lab",
   "exam": 2,
   "id": "2-74",
-  "group": "G208"
+  "group": "G045"
  },
  {
   "n": 75,
@@ -5233,7 +5234,7 @@
   "topic": "1 · Foundational Knowledge & Basic Science",
   "exam": 2,
   "id": "2-111",
-  "group": "G239"
+  "group": "G158"
  },
  {
   "n": 112,
@@ -6394,7 +6395,7 @@
   "topic": "3D · Point of Care Testing & Lab",
   "exam": 3,
   "id": "3-19",
-  "group": "G292"
+  "group": "G099"
  },
  {
   "n": 20,
@@ -8675,7 +8676,7 @@
   "topic": "1 · Foundational Knowledge & Basic Science",
   "exam": 3,
   "id": "3-133",
-  "group": "G387"
+  "group": "G155"
  },
  {
   "n": 134,
@@ -8715,7 +8716,7 @@
   "topic": "2 · Anatomy & Physiology",
   "exam": 3,
   "id": "3-135",
-  "group": "G389"
+  "group": "G176"
  },
  {
   "n": 136,
@@ -9695,7 +9696,7 @@
   "topic": "3E · Phlebotomy",
   "exam": 4,
   "id": "4-34",
-  "group": "G425"
+  "group": "G117"
  },
  {
   "n": 35,
@@ -9895,7 +9896,8 @@
   "topic": "3D · Point of Care Testing & Lab",
   "exam": 4,
   "id": "4-44",
-  "group": "G185"
+  "group": "G081",
+  "note": "Exams disagree on the upper limit: Exam 1 Q82 gives 150,000–400,000/µL; Exams 2 and 4 give 150,000–450,000/µL."
  },
  {
   "n": 45,
@@ -10455,7 +10457,7 @@
   "topic": "3B · General Patient Care",
   "exam": 4,
   "id": "4-72",
-  "group": "G453"
+  "group": "G333"
  },
  {
   "n": 73,
@@ -10635,7 +10637,7 @@
   "topic": "3E · Phlebotomy",
   "exam": 4,
   "id": "4-81",
-  "group": "G459"
+  "group": "G340"
  },
  {
   "n": 82,
@@ -10775,7 +10777,7 @@
   "topic": "2 · Anatomy & Physiology",
   "exam": 4,
   "id": "4-88",
-  "group": "G465"
+  "group": "G176"
  },
  {
   "n": 89,
@@ -11075,7 +11077,7 @@
   "topic": "1 · Foundational Knowledge & Basic Science",
   "exam": 4,
   "id": "4-103",
-  "group": "G475"
+  "group": "G218"
  },
  {
   "n": 104,
@@ -11475,7 +11477,7 @@
   "topic": "3A · Patient Intake & Vitals",
   "exam": 4,
   "id": "4-123",
-  "group": "G487"
+  "group": "G378"
  },
  {
   "n": 124,
@@ -11715,7 +11717,7 @@
   "topic": "2 · Anatomy & Physiology",
   "exam": 4,
   "id": "4-135",
-  "group": "G389"
+  "group": "G176"
  },
  {
   "n": 136,
@@ -11816,7 +11818,7 @@
   "topic": "1 · Foundational Knowledge & Basic Science",
   "exam": 4,
   "id": "4-140",
-  "group": "G501"
+  "group": "G212"
  },
  {
   "n": 141,
@@ -11916,7 +11918,7 @@
   "topic": "1 · Foundational Knowledge & Basic Science",
   "exam": 4,
   "id": "4-145",
-  "group": "G504"
+  "group": "G394"
  },
  {
   "n": 146,

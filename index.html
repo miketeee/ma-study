@@ -52,7 +52,7 @@ button:focus-visible,.opt:focus-visible{outline:3px solid var(--accent);outline-
 .seg{display:flex;flex-wrap:wrap;gap:6px}
 .seg button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 13px;font-size:.88rem}
 .seg button[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
-.kwopt{display:flex;gap:8px;align-items:center;font-size:.92rem;cursor:pointer}.kwlist{margin:10px 0 0;padding-left:22px;display:grid;gap:10px;max-height:420px;overflow:auto}.kwlist li{line-height:1.4}.kwlist mark{background:#fde68a;color:inherit;border-radius:3px;padding:0 2px}.kwdim{opacity:.45}#kwPrev summary{cursor:pointer;font-weight:600}
+.kwact{gap:10px;flex-wrap:wrap;justify-content:space-between}.kwsave{gap:6px;flex:1;justify-content:flex-end;min-width:220px}.kwsave input{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;min-width:0;flex:1;max-width:220px}.kwsets{display:flex;flex-wrap:wrap;gap:8px}.kwset{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}.kwset.on{border-color:var(--ink)}.kwset button{font:inherit;font-size:.9rem;background:none;border:0;padding:6px 10px;cursor:pointer;color:inherit}.kwset .x{border-left:1px solid var(--line);padding:6px 9px;opacity:.7}.kwset .x.confirm{color:#b3402e;opacity:1}.kwq summary{cursor:pointer;list-style-position:outside}.kwopts{display:grid;gap:6px;margin:8px 0}.kwo{font:inherit;text-align:left;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:inherit;cursor:pointer}.kwo b{margin-right:6px}.kwo.sel{border-color:var(--ink)}.kwo.right{border-color:#2f7d4f;background:#e6f4ea}.kwo.wrong{border-color:#b3402e;background:#fbe9e7}.kwo:disabled{cursor:default;color:inherit}.kwfb{border-left:3px solid #2f7d4f;padding:6px 10px;margin:6px 0}.kwfb.bad{border-left-color:#b3402e}.kwfb p{margin:6px 0 0}.kwcheck{margin:4px 0}.kwopt{display:flex;gap:8px;align-items:center;font-size:.92rem;cursor:pointer}.kwlist{margin:10px 0 0;padding-left:22px;display:grid;gap:10px;max-height:420px;overflow:auto}.kwlist li{line-height:1.4}.kwlist mark{background:#fde68a;color:inherit;border-radius:3px;padding:0 2px}.kwdim{opacity:.45}#kwPrev summary{cursor:pointer;font-weight:600}
 .topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
 .topic{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;text-align:left;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:9px 11px}
 .topic[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
@@ -192,7 +192,12 @@ summary{cursor:pointer;font-weight:600}
         <input id="kw" type="search" placeholder='e.g. lithotomy position — or "lithotomy position" for the exact phrase' autocomplete="off" spellcheck="false"></div>
       <label class="kwopt"><input type="checkbox" id="kwScope"> Only search within the topics and exams selected below</label>
       <p class="note" id="kwInfo" style="margin:0">Searches every question and its answer choices. All words must appear; use quotes for an exact phrase. Clear the box to go back to topic selection.</p>
-      <details id="kwPrev" hidden><summary id="kwSum"></summary><ol class="kwlist" id="kwList"></ol></details>
+      <div class="row kwact" id="kwAct" hidden>
+        <button class="btn" id="kwGo">Practice these</button>
+        <span class="row kwsave"><input id="kwName" type="text" placeholder="Name this set" maxlength="40" autocomplete="off"><button class="btn ghost" id="kwSave">Save set</button></span>
+      </div>
+      <div id="kwSetsWrap" hidden><div class="label" style="margin-bottom:6px">Saved sets</div><div class="kwsets" id="kwSets"></div></div>
+      <details id="kwPrev" hidden><summary id="kwSum"></summary><p class="note" style="margin:8px 0 0">Tap a question to answer it here. Answers count toward your stats, missed list and Sheet.</p><ol class="kwlist" id="kwList"></ol></details>
     </div>
 
     <div class="panel stack">
@@ -448,17 +453,83 @@ function renderKw() {
   if ($('kw').value !== (p.kw || '') && document.activeElement !== $('kw')) $('kw').value = p.kw || '';
   $('kwScope').checked = !!p.kwScope;
   document.querySelector('#topics').closest('.panel').classList.toggle('kwdim', on && !p.kwScope);
-  if (!on) { $('kwPrev').hidden = true; return; }
+  renderSets(on);
+  if (!on) { $('kwPrev').hidden = true; $('kwAct').hidden = true; return; }
   const all = kwPool(), shown = pool();
   $('kwPrev').hidden = false;
   const extra = p.mode !== 'all' ? ` · ${shown.length} after “${MODES.find(m => m[0] === p.mode)[1]}”` : '';
-  $('kwSum').textContent = all.length ? `${all.length} question${all.length === 1 ? '' : 's'} match${all.length === 1 ? 'es' : ''}${extra} — tap to preview` : 'No questions match — check spelling or use fewer words';
-  $('kwList').innerHTML = all.slice(0, 60).map(q => {
-    const norm = o => (' ' + o + ' ').toLowerCase().replace(/[^a-z0-9\s\-\/%.]/g, ' ').replace(/\s+/g, ' ');
-    const hits = q.options.map((o, i) => [o, i]).filter(([o]) => terms.some(t => norm(o).includes(t)));
-    return `<li><span class="note">${esc(q.topic)} · ${qlabel(q)}</span><br>${kwHi(q.q, terms)}${hits.length ? `<br><span class="note">Choice: ${hits.map(([o, i]) => kwHi(o, terms)).join(' · ')}</span>` : ''}</li>`;
-  }).join('') + (all.length > 60 ? `<li class="note">…and ${all.length - 60} more</li>` : '');
+  $('kwSum').textContent = all.length ? `${all.length} question${all.length === 1 ? '' : 's'} match${all.length === 1 ? 'es' : ''}${extra} — tap to preview or answer here` : 'No questions match — check spelling or use fewer words';
+  const n = shown.length, c = p.count === 'all' ? n : Math.min(n, +p.count);
+  $('kwAct').hidden = !all.length; $('kwGo').disabled = !n;
+  $('kwGo').textContent = n ? `Practice these ${c}` : 'None left with this filter';
+  $('kwList').innerHTML = all.slice(0, 60).map(q => kwItem(q, terms)).join('') + (all.length > 60 ? `<li class="note">…and ${all.length - 60} more</li>` : '');
 }
+
+/* ---------- answer in the preview, saved sets ---------- */
+const KWDONE = {}, KWOPEN = new Set(), KWPICK = {};
+function kwItem(q, terms) {
+  const done = KWDONE[q.id], pk = KWPICK[q.id] || [];
+  const opts = q.options.map((o, i) => {
+    let cls = 'kwo';
+    if (done) { if (q.answer.includes(i)) cls += ' right'; else if (done.includes(i)) cls += ' wrong'; } else if (pk.includes(i)) cls += ' sel';
+    return `<button type="button" class="${cls}" data-q="${esc(q.id)}" data-i="${i}"${done ? ' disabled' : ''}><b>${L[i]}</b> ${kwHi(o, terms)}</button>`;
+  }).join('');
+  let fb = '';
+  if (done) {
+    const ok = done.length === q.answer.length && q.answer.every(a => done.includes(a));
+    fb = `<div class="kwfb ${ok ? '' : 'bad'}"><b>${ok ? 'Correct' : 'Incorrect'}</b> — ${q.answer.map(i => L[i] + ') ' + esc(q.options[i])).join('; ')}<p>${esc(q.explanation)}</p>`;
+    if (q.why) { const w = q.options.map((o, i) => i).filter(i => !q.answer.includes(i) && q.why[i]);
+      if (w.length) fb += `<details class="whyall"><summary>Why the other choices are wrong</summary><ul>${w.map(i => `<li><strong>${L[i]}) ${esc(q.options[i])}:</strong> ${esc(q.why[i])}</li>`).join('')}</ul></details>`; }
+    fb += '</div>';
+  }
+  const check = q.multi && !done ? `<button type="button" class="btn kwcheck" data-q="${esc(q.id)}"${pk.length ? '' : ' disabled'}>Check answer</button>` : '';
+  return `<li><details class="kwq" data-q="${esc(q.id)}"${KWOPEN.has(q.id) ? ' open' : ''}><summary><span class="note">${esc(q.topic)} · ${qlabel(q)}${done ? (fb.includes('kwfb bad') ? ' · ✗' : ' · ✓') : ''}${q.multi ? ' · select all that apply' : ''}</span><br>${kwHi(q.q, terms)}</summary><div class="kwopts">${opts}</div>${check}${fb}</details></li>`;
+}
+function kwRecord(q, pk) {   // same bookkeeping as answering in a session (stats, history, Sheet), no session needed
+  const ok = pk.length === q.answer.length && q.answer.every(a => pk.includes(a));
+  const st = store.stats[q.id] || { seen: 0, right: 0 };
+  st.seen++; if (ok) st.right++; st.last = ok; st.lastAt = Date.now(); if (!st.firstAt) st.firstAt = st.lastAt; store.stats[q.id] = st;
+  store.history.push({ id: q.id, picked: pk.slice(), ok, ts: Date.now() });
+  save(); queueAttempt(q, pk.slice(), ok); save();
+  KWDONE[q.id] = pk.slice(); delete KWPICK[q.id];
+  renderSetup();
+}
+$('kwList').addEventListener('toggle', e => { const d = e.target; if (!d.classList || !d.classList.contains('kwq')) return; d.open ? KWOPEN.add(d.dataset.q) : KWOPEN.delete(d.dataset.q); }, true);
+$('kwList').addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b || b.disabled) return;
+  const q = BYN[b.dataset.q]; if (!q) return;
+  if (b.classList.contains('kwcheck')) return kwRecord(q, KWPICK[q.id] || []);
+  const i = +b.dataset.i;
+  if (q.multi) { const a = KWPICK[q.id] || []; KWPICK[q.id] = a.includes(i) ? a.filter(x => x !== i) : a.concat(i); renderKw(); }
+  else kwRecord(q, [i]);
+});
+$('kwGo').onclick = () => $('startBtn').click();
+function renderSets(on) {
+  const sets = store.sets || [];
+  $('kwSetsWrap').hidden = !sets.length;
+  const cur = (store.prefs.kw || '').trim();
+  $('kwSets').innerHTML = sets.map((x, i) => {
+    const p0 = store.prefs, keep = [p0.kw, p0.kwScope]; p0.kw = x.kw; p0.kwScope = x.scope;
+    const n = kwPool().length; p0.kw = keep[0]; p0.kwScope = keep[1];
+    return `<span class="kwset${x.kw === cur && !!x.scope === !!store.prefs.kwScope ? ' on' : ''}"><button type="button" data-set="${i}" title="Search: ${esc(x.kw)}">${esc(x.name)} <span class="note">${n}</span></button><button type="button" class="x" data-del="${i}" aria-label="Delete ${esc(x.name)}">×</button></span>`;
+  }).join('');
+  const ex = sets.find(x => x.kw === cur && !!x.scope === !!store.prefs.kwScope);
+  $('kwSave').textContent = ex ? 'Saved' : 'Save set'; $('kwSave').disabled = !!ex || !on;
+  if (ex && document.activeElement !== $('kwName')) $('kwName').value = '';
+}
+$('kwSave').onclick = () => {
+  const kw = (store.prefs.kw || '').trim(); if (!kwTerms(kw).length) return;
+  const name = $('kwName').value.trim() || kw.replace(/"/g, '');
+  store.sets = (store.sets || []).filter(x => x.name.toLowerCase() !== name.toLowerCase());
+  store.sets.push({ name, kw, scope: !!store.prefs.kwScope, at: Date.now() }); save();
+  $('kwName').value = ''; renderSetup();
+};
+$('kwName').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); $('kwSave').click(); } });
+$('kwSets').addEventListener('click', e => {
+  const d = e.target.closest('button[data-del]'), b = e.target.closest('button[data-set]');
+  if (d) { const i = +d.dataset.del; if (d.dataset.confirm) { store.sets.splice(i, 1); save(); renderSetup(); } else { d.dataset.confirm = '1'; d.textContent = 'Delete?'; d.classList.add('confirm'); } return; }
+  if (b) { const x = store.sets[+b.dataset.set]; store.prefs.kw = x.kw; store.prefs.kwScope = x.scope; save(); $('kw').value = x.kw; renderSetup(); }
+});
 let kwTimer;
 $('kw').addEventListener('input', () => { clearTimeout(kwTimer); kwTimer = setTimeout(() => { store.prefs.kw = $('kw').value; save(); renderSetup(); }, 200); });
 $('kw').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); clearTimeout(kwTimer); store.prefs.kw = $('kw').value; save(); renderSetup(); if (!$('startBtn').disabled) $('startBtn').focus(); } });
